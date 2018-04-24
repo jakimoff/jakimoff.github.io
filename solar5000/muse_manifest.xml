@@ -1,0 +1,165 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dariank.ca/slickallax3" resolutions="1x" timestamp="1508236180198">
+  <folder name="css">
+    <file name="site_global.css" crc="373185108"/>
+    <file name="index.css" crc="4024640584" ref="index"/>
+    <file name="iefonts_index.css" crc="4064040416" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u4823.php" crc="218071308" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u72-4.png" crc="503879360" ref="index"/>
+    <file name="592006_galleryworld.jpg" crc="3896444362" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="5872907-v-yaponskom-gorode-kitakyusyu-nakhodits.jpg" crc="187518564" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="japanese-cherry-blossom-garden-wallpaper-mobile.jpg" crc="221612486" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="preview-4446205-1200x630-99-1484645307.jpg" crc="3810410331" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thumb_l_1428.jpg" crc="218670807" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="08082017996.jpg" crc="188433281" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u126_states.png" crc="3951276838" ref="index"/>
+    <file name="u126_states-r.png" crc="4186504733" ref="index"/>
+    <file name="u160_states.png" crc="210967432" ref="index"/>
+    <file name="u160_states-r.png" crc="432724072" ref="index"/>
+    <file name="u346_states.png" crc="529391599" ref="index"/>
+    <file name="u346_states-r.png" crc="3934406690" ref="index"/>
+    <file name="u347_states.png" crc="57034460" ref="index"/>
+    <file name="u347_states-r.png" crc="405718791" ref="index"/>
+    <file name="irhyahbmmci-u2886-fr.jpg" crc="4275379030" ref="index"/>
+    <file name="холст1-u3023-fr.jpg" crc="236875513" ref="index"/>
+    <file name="irhyahbmmci-u2897-fr.jpg" crc="188893107" ref="index"/>
+    <file name="безимени-1-u3020-fr.png" crc="217789508" ref="index"/>
+    <file name="холст1-u3026-fr.jpg" crc="173884261" ref="index"/>
+    <file name="w256h2561339405847delete256-u2900-fr.png" crc="3770543437" ref="index"/>
+    <file name="u127-4.png" crc="451119807" ref="index"/>
+    <file name="u133-4.png" crc="427193330" ref="index"/>
+    <file name="u161-4.png" crc="80107861" ref="index"/>
+    <file name="u136-4.png" crc="300515762" ref="index"/>
+    <file name="u138-4.png" crc="4229533481" ref="index"/>
+    <file name="u128-18.png" crc="46767214" ref="index"/>
+    <file name="без названия.jpg" crc="242940158" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="707825_600.jpg" crc="4252705461" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="internet-explorer ко5пия.png" crc="4086159331" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u469-6.png" crc="4089833616" ref="index"/>
+    <file name="b7i9abkentw.jpg" crc="312777630" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="04082017985 копия.jpg" crc="140322602" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="egoeyk12mew.jpg" crc="167961851" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vqwmchgtppa.jpg" crc="323688967" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i6g5hn3nohq.jpg" crc="532041384" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qfi72_k36lk.jpg" crc="189517855" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="b7i9abkentw-u4263-fr.jpg" crc="157952638" ref="index"/>
+    <file name="04082017985 копия-u4348-fr.jpg" crc="404511870" ref="index"/>
+    <file name="egoeyk12mew-u4370-fr.jpg" crc="4032199847" ref="index"/>
+    <file name="vqwmchgtppa-u4398-fr.jpg" crc="4087231583" ref="index"/>
+    <file name="i6g5hn3nohq-u4434-fr.jpg" crc="450960570" ref="index"/>
+    <file name="qfi72_k36lk-u4470-fr.jpg" crc="4184450822" ref="index"/>
+    <file name="w256h256133555256 копия.png" crc="4017412455" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4052-6.png" crc="60613443" ref="index"/>
+    <file name="akrsijghdrs.jpg" crc="370552125" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="z3g9agmxcso.jpg" crc="294999288" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="y_a4f4d13c.jpg" crc="12346455" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4514.png" crc="4136399705" ref="index"/>
+    <file name="u4514-r.png" crc="4119760209" ref="index"/>
+    <file name="u4528.png" crc="4166597372" ref="index"/>
+    <file name="u4528-r.png" crc="4279483482" ref="index"/>
+    <file name="54876954.jpg" crc="476673429" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="безимени-1.png" crc="359761254" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4539.png" crc="505163649" ref="index"/>
+    <file name="u4539-r.png" crc="170350281" ref="index"/>
+    <file name="vkgif.gif" crc="74065741" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4039.png" crc="4080969982" ref="index"/>
+    <file name="u4039-r.png" crc="97235602" ref="index"/>
+    <file name="u4039-a.png" crc="97235602" ref="index"/>
+    <file name="u4171.png" crc="32740471" ref="index"/>
+    <file name="u4171-r.png" crc="65651055" ref="index"/>
+    <file name="u4171-a.png" crc="138826322" ref="index"/>
+    <file name="u4177.png" crc="3941090193" ref="index"/>
+    <file name="u4177-r.png" crc="3808689400" ref="index"/>
+    <file name="u4177-a.png" crc="4073395293" ref="index"/>
+    <file name="u4213.png" crc="3993301089" ref="index"/>
+    <file name="u4213-r.png" crc="4241691058" ref="index"/>
+    <file name="u4213-a.png" crc="4131647222" ref="index"/>
+    <file name="dfdfdf.jpg" crc="283118942" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4560-4.png" crc="4186350514" ref="index"/>
+    <file name="telephone-304968_960_720.png" crc="3764317701" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="128880275_logoviber.png" crc="3878137116" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1074377777777777777838.png" crc="4278617429" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="metro_email_11435.png" crc="279604527" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-olx.png" crc="4191753390" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u681-4.png" crc="172185192" ref="index"/>
+    <file name="u5084-14.png" crc="316319834" ref="index"/>
+    <file name="u697-6.png" crc="368341966" ref="index"/>
+  </folder>
+  <file name="index.html" crc="515622211" seo="true" mt="1508236179373" redirect="true"/>
+</manifest>
