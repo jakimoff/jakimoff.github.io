@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,223 +17,207 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="css/main.min.css" rel="stylesheet">
-</head>
-<body class="site" data-spy="scroll" data-target="#menu" data-offset="50">
-<header>
-    <div class="container">
+  </head>
+  <body class="site" data-spy="scroll" data-target="#menu" data-offset="50">
+    <header>
+      <div class="container">
         <div class="header">
-            <div class="header__logo"><a class="header__logo__links" href="#preview">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292"
-                         height="41" viewBox="0 0 292 41">
-                        <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="292" height="41"
-                               xlink:href="data:img/png;base64,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"/>
-                    </svg>
-                </a></div>
-            <ul class="header__menu" id="menu">
-                <li class="header__menu__items"><a class="header__menu__links" href="#preview">Company</a></li>
-                <li class="header__menu__items"><a class="header__menu__links" href="#about">Process</a></li>
-                <li class="header__menu__items"><a class="header__menu__links" href="#services">Services</a></li>
-                <li class="header__menu__items"><a class="header__menu__links" href="#work">Latest Works</a></li>
-                <li class="header__menu__items"><a class="header__menu__links" href="#clients">Clients</a></li>
-                <li class="header__menu__items"><a class="header__menu__links" href="#contacts">Contact</a></li>
-            </ul>
-            <div class="header__burger">
-                <div class="hamburger"><span></span><span></span><span></span><span></span><span></span><span></span>
-                </div>
-            </div>
+          <div class="header__logo"><a class="header__logo__links" href="#preview"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292" height="41" viewBox="0 0 292 41">
+<image id="Vector_Smart_Object" data-name="Vector Smart Object" width="292" height="41" xlink:href="data:img/png;base64,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"/>
+</svg>
+</a></div>
+          <ul class="header__menu" id="menu">
+            <li class="header__menu__items"><a class="header__menu__links" href="#preview">Company</a></li>
+            <li class="header__menu__items"><a class="header__menu__links" href="#about">Process</a></li>
+            <li class="header__menu__items"><a class="header__menu__links" href="#services">Services</a></li>
+            <li class="header__menu__items"><a class="header__menu__links" href="#work">Latest Works</a></li>
+            <li class="header__menu__items"><a class="header__menu__links" href="#clients">Clients</a></li>
+            <li class="header__menu__items"><a class="header__menu__links" href="#contacts">Contact</a></li>
+          </ul>
+          <div class="header__burger">
+            <div class="hamburger"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
         </div>
-    </div>
-</header>
-<main class="site_content">
-    <div class="main_photo" id="preview"><img class="main_photo__img" src="img/main_fon.jpg" alt="photo-fon">
+      </div>
+    </header>
+    <main class="site_content">
+      <div class="main_photo" id="preview"><img class="main_photo__img" src="img/main_fon.jpg" alt="photo-fon">
         <div class="main_photo__wrap">
-            <div class="container">
-                <div class="main_photo__info">
-                    <h1 class="info__head">Fulkrum</h1>
-                    <h5 class="info__text">Creative Production<br>House</h5>
-                </div>
+          <div class="container">
+            <div class="main_photo__info">
+              <h1 class="info__head">Fulkrum</h1>
+              <h5 class="info__text">Creative Production<br>House</h5>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="about_wrap" id="about">
+      </div>
+      <div class="about_wrap" id="about">
         <div class="about_us">
-            <h2 class="about_us__head">about us</h2>
+          <h2 class="about_us__head">about us</h2>
         </div>
         <div class="about_me">
-            <div class="container">
-                <h4 class="about_me__head">Fulkrum Productions</h4>
-                <p class="about_me__text">Fulkrum Productions is a creative production house that produces a variety of
-                    media. From behind the scenes film, restaurant chef profiles and concert coverage, Fulkrum has a
-                    wide range of skills and abilities to create captivating work. With a tight knit team of
-                    collaborative creatives, we deliver a great product.</p>
-            </div>
+          <div class="container">
+            <h4 class="about_me__head">Fulkrum Productions</h4>
+            <p class="about_me__text">Fulkrum Productions is a creative production house that produces a variety of media.  From behind the scenes film, restaurant chef profiles and concert coverage, Fulkrum has a wide range of skills and abilities to create captivating work. With a tight knit team of collaborative creatives, we deliver a great product.</p>
+          </div>
         </div>
-    </div>
-    <div class="services_wrap" id="services">
+      </div>
+      <div class="services_wrap" id="services">
         <div class="container">
-            <div class="services">
-                <h2 class="services__head">Services</h2>
-                <p class="services__text">Here’s a quick video on what we do and how we do it.</p>
-            </div>
+          <div class="services">
+            <h2 class="services__head">Services</h2>
+            <p class="services__text">Here’s a quick video on what we do and how we do it.</p>
+          </div>
         </div>
-        <div class="services_tube play"><img class="services_tube__img" src="img/youtube.jpg" alt="tube"></div>
-        <div class="services_btn"><a class="btn white" href="#">watch it on you-tube</a></div>
-    </div>
-    <div class="video_wrap" id="work">
+        <div class="services_tube">
+          <iframe src="https://www.youtube.com/embed/2VF56KSqBdw"></iframe>
+        </div>
+        <div class="services_btn"><a class="btn white" href="https://www.youtube.com/watch?time_continue=1&amp;v=2VF56KSqBdw" target="_blank">watch it on you-tube</a></div>
+      </div>
+      <div class="video_wrap" id="work">
         <div class="video_main">
-            <div class="video_main__this play"><img src="img/vid5.jpg" alt="vid5"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">The Parlour at The<br>Federal Long Beach</h3>
-                    <p class="link_video__text">Here's a video that was created for speakeasy at The Federal Long Beach
-                        called The Parlour. We featured their mixologist showing how to make a Corpse Reviver #2 to help
-                        promote their bar.</p>
-                    <div class="link_video__btn"><a class="btn black" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/2VF56KSqBdw"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">The Parlour at The<br>Federal Long Beach</h3>
+              <p class="link_video__text">Here's a video that was created for speakeasy at The Federal Long Beach called The Parlour. We featured their mixologist showing how to make a Corpse Reviver #2 to help promote their bar.</p>
+              <div class="link_video__btn"><a class="btn black" href="https://www.youtube.com/watch?time_continue=1&amp;v=2VF56KSqBdw" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
         <div class="video_main reverse">
-            <div class="video_main__this play"><img src="img/vid6.jpg" alt="vid6"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">Freshwater Dumpling<br>and Noodle House</h3>
-                    <p class="link_video__text">This video was created to help promote the Freshwater Dumpling and
-                        Noodle House at The Huntington Library, Art Collections, and Botanical Gardens the beautiful
-                        Chinese Garden. We showcased Chef Kajsa's favorite dishes from their latest seasonal menu with
-                        the beautiful gardens as the backdrop for this piece.</p>
-                    <div class="link_video__btn"><a class="btn white" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/C3s_qKb1t5Q"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">Freshwater Dumpling<br>and Noodle House</h3>
+              <p class="link_video__text">This video was created to help promote the Freshwater Dumpling and Noodle House at The Huntington Library, Art Collections, and Botanical Gardens the beautiful Chinese Garden. We showcased Chef Kajsa's favorite dishes from their latest seasonal menu with the beautiful gardens as the backdrop for this piece.</p>
+              <div class="link_video__btn"><a class="btn white" href="https://www.youtube.com/watch?v=C3s_qKb1t5Q" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
         <div class="video_main">
-            <div class="video_main__this play"><img src="img/vid1.jpg" alt="vid1"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">Boomtown Brewery</h3>
-                    <p class="link_video__text">It was a pleasure working with a local company like Boomtown Brewery and
-                        having the opportunity to shoot a `behind-the-scenes look at what they do. Being known for their
-                        tasty, homemade brews and inviting atmosphere, Boomtown Brewery wanted their commercial to
-                        showcase their brand’s unique, hip style.</p>
-                    <div class="link_video__btn"><a class="btn black" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/E0y5U26t08k"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">Boomtown Brewery</h3>
+              <p class="link_video__text">It was a pleasure working with a local company like Boomtown Brewery and having the opportunity to shoot a `behind-the-scenes look at what they do. Being known for their tasty, homemade brews and inviting atmosphere, Boomtown Brewery wanted their commercial to showcase their brand’s unique, hip style.</p>
+              <div class="link_video__btn"><a class="btn black" href="https://www.youtube.com/watch?v=E0y5U26t08k" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
         <div class="video_main reverse">
-            <div class="video_main__this play"><img src="img/vid2.jpg" alt="vid2"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">Snapback</h3>
-                    <p class="link_video__text">This Snapback commercial featuring renowned DJ, Von Kiss, gave me the
-                        opportunity to explore pairing dramatic camera angles and after effects with simple audio.
-                        Learning more about Von Kiss was intriguing as we worked together to create a commercial similar
-                        to a music video.</p>
-                    <div class="link_video__btn"><a class="btn white" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/AIdwOrR3QN4"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">Snapback</h3>
+              <p class="link_video__text">This Snapback commercial featuring renowned DJ, Von Kiss, gave me the opportunity to explore pairing dramatic camera angles and after effects with simple audio. Learning more about Von Kiss was intriguing as we worked together to create a commercial similar to a music video.</p>
+              <div class="link_video__btn"><a class="btn white" href="https://www.youtube.com/watch?v=AIdwOrR3QN4" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
         <div class="video_main">
-            <div class="video_main__this play"><img src="img/vid3.jpg" alt="vid3"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">LaPalme Magazine<br>Ft. Katharine MCPhee</h3>
-                    <p class="link_video__text">LaPalme magazine did a cover shoot of the talented Katharine McPhee.
-                        Lapalme's creative director, Derek Warburton's vision came to life and I was behind the scenes
-                        capturing the magic.</p>
-                    <div class="link_video__btn"><a class="btn black" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/dj4-2TQvuNw"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">LaPalme Magazine<br>Ft. Katharine MCPhee</h3>
+              <p class="link_video__text">LaPalme magazine did a cover shoot of the talented Katharine McPhee.  Lapalme's creative director, Derek Warburton's vision came to life and I was behind the scenes capturing the magic.</p>
+              <div class="link_video__btn"><a class="btn black" href="https://www.youtube.com/watch?v=dj4-2TQvuNw" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
         <div class="video_main reverse">
-            <div class="video_main__this play"><img src="img/vid4.jpg" alt="vid4"></div>
-            <div class="video_main__link">
-                <div class="link_video">
-                    <h3 class="link_video__head">Jonnie Bars - Modern<br>Day Slaves</h3>
-                    <p class="link_video__text">By way of JMKM of Productive Culture, I was able to direct my first
-                        music video with the talented Jonnie Bars. His song "Modern Day Slaves" was an interesting take
-                        on today's societal norms.</p>
-                    <div class="link_video__btn"><a class="btn white" href="#">watch it on you-tube</a></div>
-                </div>
+          <div class="video_main__this">
+            <iframe src="https://www.youtube.com/embed/VoYQ0nwE85E"></iframe>
+          </div>
+          <div class="video_main__link">
+            <div class="link_video">
+              <h3 class="link_video__head">Jonnie Bars - Modern<br>Day Slaves</h3>
+              <p class="link_video__text">By way of JMKM of Productive Culture, I was able to direct my first music video with the talented Jonnie Bars.  His song "Modern Day Slaves" was an interesting take on today's societal norms.</p>
+              <div class="link_video__btn"><a class="btn white" href="https://www.youtube.com/watch?v=VoYQ0nwE85E" target="_blank">watch it on you-tube</a></div>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="review_wrap" id="clients">
+      </div>
+      <div class="review_wrap" id="clients">
         <div class="container">
-            <div class="review">
-                <h2 class="review__head">What Our<br>Clients Says About Us</h2>
-                <p class="review__text">Working with the Fulkrum Team was an absolute pleasure. They are professional,
-                    AND an artistic, and that makes a huge difference when you’re trying to achieve a specific goal on a
-                    timeline. Super happy with everything and would highly recommend them.</p>
-                <p class="review__author"><b>John Rankin</b>, <i>Boomtown</i></p>
+          <div class="review">
+            <h2 class="review__head">What Our<br>Clients Says About Us</h2>
+            <p class="review__text">Working with the Fulkrum Team was an absolute pleasure.  They are professional, AND an artistic, and that makes a huge difference when you’re trying to achieve a specific goal on a timeline.  Super happy with everything and would highly recommend them.</p>
+            <p class="review__author"><b>John Rankin</b>, <i>Boomtown</i></p>
+          </div>
+        </div>
+      </div>
+      <div class="sponsor_wrap">
+        <div class="container">
+          <ul class="sponsor">
+            <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor1.png" alt="sponsor1"></a></li>
+            <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor2.png" alt="sponsor2"></a></li>
+            <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor3.png" alt="sponsor3"></a></li>
+            <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor4.png" alt="sponsor4"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="form_wrap" id="contacts">
+        <div class="container">
+          <div class="form">
+            <div class="form__side_left">
+              <h2 class="form__head">Get in touch</h2>
+              <p class="form__text">Do you have a project idea in mind and want us to work on it? Drop us a line!</p>
+              <form class="form__this">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Email">
+                <input class="phone_mask" type="text" name="phone" placeholder="Phone">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea placeholder="Your Massage"></textarea>
+                <button class="btn" type="submit" name="submit">Send Your Message</button>
+              </form>
             </div>
-        </div>
-    </div>
-    <div class="sponsor_wrap">
-        <div class="container">
-            <ul class="sponsor">
-                <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor1.png"
-                                                                                   alt="sponsor1"></a></li>
-                <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor2.png"
-                                                                                   alt="sponsor2"></a></li>
-                <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor3.png"
-                                                                                   alt="sponsor3"></a></li>
-                <li class="sponsor__items"><a class="sponsor__links" href="#"><img src="img/sponsor4.png"
-                                                                                   alt="sponsor4"></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="form_wrap" id="contacts">
-        <div class="container">
-            <div class="form">
-                <div class="form__side_left">
-                    <h2 class="form__head">Get in touch</h2>
-                    <p class="form__text">Do you have a project idea in mind and want us to work on it? Drop us a
-                        line!</p>
-                    <form class="form__this">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input type="email" name="email" placeholder="Email">
-                        <input class="phone_mask" type="text" name="phone" placeholder="Phone">
-                        <input type="text" name="subject" placeholder="Subject">
-                        <textarea placeholder="Your Massage"></textarea>
-                        <button class="btn" type="submit" name="submit">Send Your Massage</button>
-                    </form>
-                </div>
-                <div class="form__side_right">
-                    <ul class="form_info">
-                        <li class="form_info__items"><span>Los Angeles, CA</span></li>
-                        <li class="form_info__items"><a class="mail" href="mailto:info@fulkrumproductions.com">info@fulkrumproductions.com</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="form__side_right">
+              <ul class="form_info">
+                <li class="form_info__items"><span>Los Angeles, CA</span></li>
+                <li class="form_info__items"><a class="mail" href="mailto:info@fulkrumproductions.com">info@fulkrumproductions.com</a></li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
-</main>
-<footer>
-    <div class="container">
+      </div>
+    </main>
+    <footer>
+      <div class="container">
         <div class="footer">
-            <form class="your_mail">
-                <input type="email" name="yourMail" placeholder="Your Email Address...">
-                <button type="submit" name="sub"></button>
-            </form>
-
-            <ul class="social">
-                <li class="social__items"><a class="social__links" href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li class="social__items"><a class="social__links" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                <li class="social__items"><a class="social__links" href="#"><i class="fa fa-vimeo"></i></a></li>
-                <li class="social__items"><a class="social__links" href="#"><i class="fa fa-facebook-f"></i></a></li>
-                <li class="social__items"><a class="social__links" href="#"><i class="fa fa-twitter"></i></a></li>
-            </ul>
+          <form class="your_mail">
+            <input type="email" name="yourMail" placeholder="Your Email Address...">
+            <button type="submit" name="sub"></button>
+          </form>
+          <ul class="social">
+            <li class="social__items"><a class="social__links" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li class="social__items"><a class="social__links" href="#"><i class="fa fa-youtube-play"></i></a></li>
+            <li class="social__items"><a class="social__links" href="#"><i class="fa fa-vimeo"></i></a></li>
+            <li class="social__items"><a class="social__links" href="#"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="social__items"><a class="social__links" href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
         </div>
         <div class="copyright">
-            <p class="copyright__this">©2018fulkrumproductions</p>
+          <p class="copyright__this">©2018fulkrumproductions</p>
         </div>
-    </div>
-</footer>
-<script src="js/libs.min.js"></script>
-<script src="js/common.js"></script>
-</body>
+      </div>
+    </footer>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
 </html>
