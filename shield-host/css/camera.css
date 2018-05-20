@@ -1,0 +1,449 @@
+
+/**************************
+*
+*	GENERAL
+*
+**************************/
+.camera_wrap img, .camera_wrap ol, .camera_wrap ul, .camera_wrap li, .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td .camera_thumbs_wrap a, .camera_thumbs_wrap img, .camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li, .camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td { background: none; border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; list-style: none }
+
+.camera_fakehover { height: 100%; min-height: 40px; position: relative; width: 100%; z-index: 1; }
+
+.camera_wrap { display: none; float: none; position: fixed; height: 388px !important; width: 940px; z-index: 0; }
+
+.camera_src { display: none; }
+
+.cameraCont, .cameraContents { height: 100%; position: relative; width: 100%; z-index: 1; }
+
+.cameraSlide { bottom: 0; left: 0; position: absolute; right: 0; top: 0; width: 100%; }
+
+.cameraContent { bottom: 0; display: none; left: 0; position: absolute; right: 0; top: 0; width: 100%; }
+
+.camera_target { bottom: 0; : 100%;
+left: 0; overflow: hidden; position: absolute; right: 0; text-align: left; top: 0; width: 100%; z-index: 0; }
+
+.camera_overlayer { bottom: 0; height: 100%; left: 0; overflow: hidden; position: absolute; right: 0; top: 0; width: 100%; z-index: 0; }
+
+.camera_target_content { bottom: 0; left: 0; overflow: visible; position: absolute; right: 0; top: 0; z-index: 2; }
+
+.camera_target_content .camera_link { display: block; height: 100%; text-decoration: none; }
+
+.camera_loader { background: #fff url(../img/camera-loader.gif) no-repeat center; background: rgba(255, 255, 255, 0.9) url(../img/camera-loader.gif) no-repeat center; border: 1px solid #ffffff; -webkit-border-radius: 18px; -moz-border-radius: 18px; border-radius: 18px; height: 36px; left: 50%; overflow: hidden; position: absolute; margin: -18px 0 0 -18px; top: 50%; width: 36px; z-index: 3; }
+
+.camera_clear { display: block; clear: both; }
+
+.showIt { display: none; }
+
+.camera_clear { clear: both; display: block; height: 1px; margin: 0px; position: relative; }
+
+.camera_caption { }
+
+.camera_caption > div { }
+
+/* slider */
+.slider { height: 388px; position: relative; z-index: 1; padding: 0; }
+
+.slider { overflow: hidden; }
+
+.camera_wrap { margin-bottom: 0 !important; }
+
+.camera_thumb { width: 150px; height: auto; }
+
+.camera_wrap .camera_pag { bottom: 18px; margin: 0 auto; position: relative; width: 58px; z-index: 999; }
+
+.camera_wrap .camera_pag .camera_pag_ul { list-style: none; margin: 0; padding: 0; text-align: center; }
+
+.camera_wrap .camera_pag .camera_pag_ul li > span { display: none; }
+
+.camera_wrap .camera_pag .camera_pag_ul li { background: #434343; width: 12px; height: 12px; display: block; float: left; margin-right: 7px; cursor: pointer; -webkit-border-radius: 18px 18px 18px 18px; -moz-border-radius: 18px 18px 18px 18px; border-radius: 18px 18px 18px 18px; }
+
+.camera_wrap .camera_pag .camera_pag_ul li:hover { background: #434343; }
+
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent { background: #3c9ed7; cursor: default; }
+
+.camera_caption { top: 0px; left: 0px; display: block; position: absolute; width: 100%; }
+
+.camera_caption h1 { color: #333; font-size: 23px; font-weight: 900; letter-spacing: 0; line-height: 23px; margin: 0; text-transform: uppercase; }
+
+.camera_caption h2 { color: #666; font-size: 18px; margin: 10px 0 0; }
+
+.camera_caption h3 { font-weight: 600; margin: -5px 0 0 0; }
+
+.camera_caption a { margin-top: 23px; }
+
+/*Banner-1*/
+
+.banner.slider-banner-1 { margin: 70px auto 0; text-align: center; }
+
+.slider .banner.slider-banner-1 .row-1 { display:block; text-align:center; font-family: 'Open Sans', Arial, sans-serif; font-size: 43px; line-height:44px; color:#FFFFFF; font-weight:800; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); text-transform: uppercase; }
+
+.slider .banner.slider-banner-1 .row-2 { color: #1E3141; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 31px; font-weight: 700; line-height: 43px; padding: 0 0 5px 0; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); }
+
+.slider .banner.slider-banner-1 p { color: #1E3141; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 26px; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); }
+
+.slider .banner.slider-banner-1 .button-1 { margin:6px 0 0 0; }
+
+/*Banner-2*/
+
+.banner.slider-banner-2 > img { position: absolute; top: 50px; width: 48%; }
+
+.slider .banner.slider-banner-2 .row-1 { color: #FFFFFF; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 33px; font-weight: 800; line-height: 54px; padding: 0; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); text-transform: uppercase; }
+
+.slider .banner.slider-banner-2 .row-2 { color: #1E3141; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 23px; font-weight: 700; line-height: 33px; padding: 0 0 10px; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); }
+
+.slider .banner.slider-banner-2 p { color: #1E3141; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 26px; padding: 0; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); }
+
+.slider .banner.slider-banner-2 .button-1 { margin:0; }
+
+.cameraContent .information { display: block; float: right; margin-top: 57px; width: 47%; }
+
+.cameraContent .information ul { margin-bottom: 20px; }
+
+.cameraContent .information li { color: #1E3141; display: inline-block; font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 26px; padding: 5px 0; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); width: 46%; }
+
+.cameraContent .information p { color: #1E3141; display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; padding: 10px 0 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); }
+
+.cameraContent .information { text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6); }
+
+.cameraContent .information .box { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07); border: 1px solid rgba(0, 0, 0, 0.1); -webkit-border-radius: 6px 6px 6px 6px; -moz-border-radius: 6px 6px 6px 6px; border-radius: 6px 6px 6px 6px; height: 40px; margin-top: 10px; padding: 9px; }
+
+.cameraContent .information .box .label { background: none repeat scroll 0 0 transparent; border: medium none transparent; color: #FFFFFF; float: left; font-size: 11px; line-height: 14px; margin: 4px 10px; text-align: right; text-transform: uppercase; }
+
+.cameraContent .information .box .price { color: #FFFFFF; float: left; font-size: 36px; font-weight: bold; line-height: 36px; margin-left: 10px; }
+
+.cameraContent .information .box .colorButton { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); float: right; }
+ @media (min-width: 1200px) {
+.slider {
+ height: 428px;
+}
+.camera_wrap {
+display: none;
+float: none;
+height: 428px !important position: fixed;
+width: 1170px;
+z-index: 0;
+}
+
+/*Banner-1*/
+
+.banner.slider-banner-1 {
+margin: 70px auto 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .row-1 {
+font-size: 43px;
+line-height:44px;
+}
+ .slider .banner.slider-banner-1 .row-2 {
+font-size: 31px;
+font-weight: 700;
+line-height: 43px;
+padding: 0 0 5px 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 p {
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .button-1 {
+margin:6px 0 0 0;
+}
+
+
+/*Banner-2*/
+
+.banner.slider-banner-2 > img {
+top: 50px;
+width: 48%;
+}
+ .slider .banner.slider-banner-2 .row-1 {
+font-size: 33px;
+line-height: 54px;
+}
+ .slider .banner.slider-banner-2 .row-2 {
+font-size: 26px;
+font-weight: 700;
+line-height: 33px;
+}
+ .slider .banner.slider-banner-2 p {
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+}
+ .slider .banner.slider-banner-2 .button-1 {
+margin:0;
+}
+ .cameraContent .information {
+float: right;
+margin-top: 57px;
+width: 47%;
+}
+ .cameraContent .information ul {
+margin-bottom: 20px;
+}
+ .cameraContent .information li {
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+padding: 5px 0;
+width: 46%;
+}
+ .cameraContent .information p {
+font-size: 15px;
+line-height: 26px;
+padding: 10px 0 !important;
+}
+ .cameraContent .information {
+}
+ .cameraContent .information .box {
+height: 40px;
+margin-top: 10px;
+padding: 9px;
+}
+ .cameraContent .information .box .label {
+float: left;
+font-size: 11px;
+line-height: 14px;
+margin: 4px 10px;
+text-align: right;
+}
+ .cameraContent .information .box .price {
+float: left;
+font-size: 36px;
+line-height: 36px;
+margin-left: 10px;
+}
+}
+@media (max-width: 1199px) {
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+}
+@media (min-width: 979px) {
+}
+@media (max-width: 979px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.slider {
+ height: 338px;
+}
+.camera_wrap {
+display: none;
+float: none;
+height: 338px !important;
+position: fixed;
+width: 724px;
+z-index: 0;
+}
+
+/*Banner-1*/
+
+.banner.slider-banner-1 {
+margin: 70px auto 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .row-1 {
+font-size: 23px;
+line-height:44px;
+}
+ .slider .banner.slider-banner-1 .row-2 {
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+padding: 0 0 5px 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 p {
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .button-1 {
+margin:6px 0 0 0;
+}
+
+
+/*Banner-2*/
+
+.banner.slider-banner-2 > img {
+top: 50px;
+width: 48%;
+}
+ .slider .banner.slider-banner-2 .row-1 {
+font-size: 23px;
+line-height: 44px;
+}
+ .slider .banner.slider-banner-2 .row-2 {
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+}
+ .slider .banner.slider-banner-2 p {
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+}
+ .slider .banner.slider-banner-2 .button-1 {
+margin:0;
+}
+ .cameraContent .information {
+float: right;
+margin-top: 57px;
+width: 47%;
+}
+ .cameraContent .information ul {
+margin-bottom: 20px;
+}
+ .cameraContent .information li {
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+padding: 5px 0;
+width: 46%;
+}
+ .cameraContent .information p {
+font-size: 15px;
+line-height: 26px;
+padding: 10px 0 !important;
+}
+ .cameraContent .information {
+}
+ .cameraContent .information .box {
+height: 40px;
+margin-top: 10px;
+padding: 9px;
+}
+ .cameraContent .information .box .label {
+float: left;
+font-size: 11px;
+line-height: 14px;
+margin: 4px 10px;
+text-align: right;
+}
+ .cameraContent .information .box .price {
+float: left;
+font-size: 26px;
+line-height: 36px;
+margin-left: 10px;
+}
+}
+@media (max-width: 767px) {
+.slider {
+ height: 338px;
+}
+.camera_wrap {
+display: none;
+float: none;
+height: 338px !important;
+position: relative;
+width: 100%;
+z-index: 0;
+}
+
+/*Banner-1*/
+
+.banner.slider-banner-1 {
+margin: 70px auto 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .row-1 {
+font-size: 23px;
+line-height:44px;
+}
+ .slider .banner.slider-banner-1 .row-2 {
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+padding: 0 0 5px 0;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 p {
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+text-align: center;
+}
+ .slider .banner.slider-banner-1 .button-1 {
+margin:6px 0 0 0;
+}
+
+
+/*Banner-2*/
+
+.banner.slider-banner-2 > img {
+display: none;
+top: 50px;
+width: 48%;
+}
+ .slider .banner.slider-banner-2 .row-1 {
+font-size: 23px;
+line-height: 44px;
+}
+ .slider .banner.slider-banner-2 .row-2 {
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+}
+ .slider .banner.slider-banner-2 p {
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+}
+ .slider .banner.slider-banner-2 .button-1 {
+margin:0;
+}
+ .cameraContent .information {
+float: right;
+margin-top: 57px;
+width: 100%;
+}
+ .cameraContent .information ul {
+margin-bottom: 20px;
+}
+ .cameraContent .information li {
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+padding: 5px 0;
+width: 46%;
+}
+ .cameraContent .information p {
+font-size: 15px;
+line-height: 26px;
+padding: 10px 0 !important;
+}
+ .cameraContent .information {
+}
+ .cameraContent .information .box {
+height: 40px;
+margin-top: 10px;
+padding: 9px;
+}
+ .cameraContent .information .box .label {
+float: left;
+font-size: 11px;
+line-height: 14px;
+margin: 4px 10px;
+text-align: right;
+}
+ .cameraContent .information .box .price {
+float: left;
+font-size: 26px;
+line-height: 36px;
+margin-left: 10px;
+}
+}
+@media (min-width: 626px) and (max-width: 767px) {
+}
+@media (max-width: 625px) {
+}
+/**/
+@media (min-width: 482px) and (max-width: 625px) {
+}
+@media (max-width: 481px) {
+}
+@media (min-width: 320px) and (max-width: 481px) {
+}
+@media (max-width: 320px) {
+}

@@ -1,0 +1,98 @@
+.carousel  {
+   width: 637px;   
+   float: left;
+   position: relative;
+}
+.carousel-wrapper {
+   width: 637px;
+   overflow: hidden;
+   margin:0px;
+   padding:0px;
+}
+.carousel-items {
+   width: 10000px;
+   position: relative;
+}
+.carousel-block {
+   float: left;
+   width: 637px;
+   border-radius: 10px;        
+}
+
+.carousel-block img{
+   border-radius: 8px;
+}
+
+/*********** BUTTONS ***********/
+.carousel-button-left a{
+   float: left; 
+   background: url(../images/carousel-left.png); 
+   z-index: 1;
+width: 32px;
+height: 32px;
+   position: absolute;
+   top: 150px; 
+   left: 15px;
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../images/carousel-right.png); 
+   z-index: 1;
+width: 32px;
+height: 32px;
+   position: absolute;
+   top: 150px; 
+   right: 15px;
+   cursor: pointer; 
+   text-decoration:none;   
+}
+
+
+
+
+.carousel2  {
+   width: 610px;
+   position: relative;
+}
+.carousel-wrapper2 {
+   width: 398px;
+   overflow: hidden;
+   margin:0px;
+   padding:0px;
+}
+.carousel-items2 {
+   width: 10000px;
+   position: relative;
+}
+.carousel-block2 {
+   float: left;
+   width: 388px;
+   padding: 25px 10px;      
+}
+
+/*********** BUTTONS ***********/
+.carousel-button-left2 a{
+   float: left; 
+   background: url(../images/carousel-left.png); 
+   z-index: 1;
+   width: 32px; 
+   height: 35px; 
+   position: relative;
+   top: 150px; 
+   cursor: pointer; 
+   text-decoration:none;
+   margin-left: 15px;
+}
+.carousel-button-right2 a{
+   float: right;
+   background: url(../images/carousel-right.png); 
+   z-index: 1;
+   width: 34px; 
+   height: 35px; 
+   position: absolute;
+   top: 150px; 
+   cursor: pointer; 
+   text-decoration:none;   
+}
