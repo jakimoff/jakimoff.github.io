@@ -1,0 +1,431 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shield host - your host!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/inner.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/es-carousel.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/camera.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/order.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
+    <!-- valid -->
+    <script type="text/javascript">
+        function ValidMail() {
+            var re = /^[\w-\.]+@[\w-]+\.[a-z]{2,4}$/i;
+            var myMail = document.getElementById('e-mail').value;
+            var valid = re.test(myMail);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'E-mail is incorrect!';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+
+        function ValidPhone() {
+            var re = /^[+]+[\d]+[\d\(\)\ -]+[\d]+$/;
+            var myPhone = document.getElementById('phone').value;
+            var valid = re.test(myPhone);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'Phone number is incorrect, please type full phone number. Example: "+1*****"';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+    </script>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,400italic,300italic,800,700,600,300|Open+Sans+Condensed:300,700,300italic|Fredericka+the+Great" rel="styleshee" type="text/css">
+    <!--[if lt IE 9]>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,400italic,300italic,800,700,600,300|Open+Sans+Condensed:300,700,300italic|Fredericka+the+Great" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <![endif]-->
+</head><body>
+<!--==============================header=================================-->
+<header>
+    <div id="row-nav">
+        <div class="container clearfix">
+            <div class="row ">
+                <div class="span12">
+                    <h1 class="brand brand_"><a href="index.html"><img src="img/logo.png"></a></h1>
+                    <div class="navbar navbar_">
+                        <div class="container">
+                            <!--=========== menu ===============-->
+                            <div class="nav-collapse nav-collapse_ collapse">
+                                <ul class="nav sf-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="sub-menu active"><a href="#">Pricing Tables</a>
+                                        <ul>
+                                            <li><a href="price_v.html">Pricing Tables VPS</a></li>
+                                            <li><a href="price_d.html">Pricing Tables Dedicated</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu"><a href="#">Information</a>
+                                        <ul>
+                                            <li><a href="about.html">About us</a></li>
+                                            <li><a href="pp.html">Privacy Policy</a></li>
+                                            <li><a href="tofu.html">Terms of User</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blog.html">News</a></li>
+                                    <li><a href="contact.html">Contact us </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><aside id="vps_1" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "VPS Basic">
+        </form>
+    </div>
+</aside><aside id="vps_2" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "VPS Economy">
+        </form>
+    </div>
+</aside><aside id="vps_3" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "VPS Deluxe">
+        </form>
+    </div>
+</aside><aside id="vps_4" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "VPS Unlimited">
+        </form>
+    </div>
+</aside><!--==============================content=================================-->
+<section id="content">
+    <div class="container">
+        <!-- Icons -->
+        <div class="row">
+            <div class="span12">
+                <div class=" page-effect-wrapper">
+                    <div class="effect-left"></div>
+                    <div class="effect-right"></div>
+                    <div class="page-header1">
+                        <h2>Table prices<small> for professional Virtual Private Server hosting.</small></h2>
+                    </div>
+                </div>
+                <p>Omnes nostri rates sunt electi a calculum requiruntur, pluribus multitudo. Sed si fieri debeat quod idoneum lezdam Te sunt et non potuerunt invenire, nos libenter ad Te, concessionibus, et erit considerandum est in proposito, in singulis servitium consilium. Mittere petitiones auxilium vel consilium a lezdam <a href="contact.html#contact">click hic.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Price -->
+        <div class="row">
+            <div class="span12">
+                <div class="tab-content" id="myTabContent">
+                    <!-- 4 rows Price list -->
+                    <div id="4pricelist" class="tab-pane fade in active">
+                        <div class="price-table price-table-four">
+                            <div class="price-column  price-column-first">
+                                <h4>Basic</h4>
+                                <ul>
+                                    <li class="first">
+                                        <div class="price-tag"><span class="price-value">$14.99</span><span class="price-period">per month</span></div>
+                                    </li>
+                                    <li><strong>Xeon E3-1240 @ 3.30 GHz</strong> Processor </li>
+                                    <li><strong>3 GB</strong> RAM</li>
+                                    <li><strong>90Gb</strong> HDD</li>
+                                    <li><strong>Unlimited</strong> Bandwidth</li>
+                                    <li><strong>1 IPv4 Address; /64 IPv6</strong> IP </li>
+                                    <li><strong>v.7.1</strong> PHP</li>
+                                    <li><strong>v.5.1</strong> PHPmyadmin</li>
+                                    <li><strong>Unlimited databases</strong> Mysql</li>
+                                    <li class="last"><a href="price_v.html#vps_1" class="button">Buy now</a></li>
+                                </ul>
+                            </div>
+                            <div class="price-column price-column-featured">
+                                <h4>Economy</h4>
+                                <ul>
+                                    <li class="first">
+                                        <div class="price-tag"><span class="price-value">$25.99</span><span class="price-period">per month</span></div>
+                                    </li>
+                                    <li><strong>Xeon E3-1240 @ 3.30 GHz</strong> Processor </li>
+                                    <li><strong>3 Gb</strong> RAM</li>
+                                    <li><strong>150 Gb</strong> HDD</li>
+                                    <li><strong>Unlimited</strong> Bandwidth</li>
+                                    <li><strong>1 IPv4 Address; /64 IPv6</strong> IP </li>
+                                    <li><strong>v.7.1</strong> PHP</li>
+                                    <li><strong>v.5.1</strong> PHPmyadmin</li>
+                                    <li><strong>Unlimited databases</strong> Mysql</li>
+                                    <li class="last"><a href="price_v.html#vps_2" class="button">Buy now</a></li>
+                                </ul>
+                            </div>
+                            <div class="price-column  price-column-even">
+                                <h4>Deluxe</h4>
+                                <ul>
+                                    <li class="first">
+                                        <div class="price-tag"><span class="price-value">$30.99</span><span class="price-period">per month</span></div>
+                                    </li>
+                                    <li><strong>Intel Xeon i7 W3520</strong> Processor </li>
+                                    <li><strong>8 Gb</strong> RAM</li>
+                                    <li><strong>150 Gb</strong> HDD</li>
+                                    <li><strong>Unlimited</strong> Bandwidth</li>
+                                    <li><strong>1 IPv4 Address; /64 IPv6</strong> IP </li>
+                                    <li><strong>v.7.1</strong> PHP</li>
+                                    <li><strong>v.5.1</strong> PHPmyadmin</li>
+                                    <li><strong>Unlimited databases</strong> Mysql</li>
+                                    <li class="last"><a href="price_v.html#vps_3" class="button">Buy now</a></li>
+                                </ul>
+                            </div>
+                            <div class="price-column  price-column-last">
+                                <h4>Unlimited</h4>
+                                <ul>
+                                    <li class="first">
+                                        <div class="price-tag"><span class="price-value">$50.99</span><span class="price-period">per month</span></div>
+                                    </li>
+                                    <li><strong>Intel Xeon i7 W3520</strong> Processor </li>
+                                    <li><strong>16 Gb</strong> RAM</li>
+                                    <li><strong>3x1.5 TB</strong> HDD</li>
+                                    <li><strong>Unlimited</strong> Bandwidth</li>
+                                    <li><strong>1 IPv4 Address; /64 IPv6</strong> IP </li>
+                                    <li><strong>v.7.1</strong> PHP</li>
+                                    <li><strong>v.5.1</strong> PHPmyadmin</li>
+                                    <li><strong>Unlimited databases</strong> Mysql</li>
+                                    <li class="last"><a href="price_v.html#vps_4" class="button">Buy now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="container">
+            <!-- Strip with button -->
+            <div class="row">
+                <div class="span12">
+                    <h2>Welcome to Shield Host. <span>Dedicated</span> and <span>VPS Hosting</span></h2>
+                    <p>We do not spray, and this is our 2 services better than other hosting, where 10 of them.</p>
+                    <a href="contact.html#contact" class="btn btn-large btn-success"><i class="icon-star icon-white"></i> Lets work together!</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- welcome -->
+            <div class="span4">
+                <div class="border-right">
+                    <h2 class="indent-1">Welcome!</h2>
+                    <p class="p2">If You haven't had time to get acquainted with the latest achievements of our hosting technology world, provide You with the latest news. With these pages You will learn what happened in our campaign recently.</p>
+                    <ul class="list p2">
+                        <li><a href="blog.html#cpanel">cPanel</a></li>
+                        <li><a href="blog.html#technology">New technology</a></li>
+                        <li><a href="blog.html#xeon">Intel® Xeon™</a></li>
+                        <li><a href="blog.html#centos">CentOS 6</a></li>
+                        <li><a href="blog.html#mysql">MySQL 5</a></li>
+                    </ul>
+                    <a href="blog.html" class="btn btn-small btn-success"><i class="icon-share-alt icon-white"></i> For more info</a> </div>
+            </div>
+            <!-- meet our team -->
+            <div class="span8">
+                <div class="clearfix">
+                    <h2 class="indent-1 bot-0 pull-left">Meet Our Team</h2>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div id="team1" class="tab-pane fade in active">
+                        <ul class="thumbnails thumbnails_3">
+                            <li class="span2">
+                                <div class="thumbnail_3">
+                                    <figure class="img-circle"><img src="img/page1-img8.jpg" alt="" class="img-circle"></figure>
+                                    <div><a href="https://www.facebook.com/graciane.gouveiadiniz?pnref=lhc.friends" class="lead">Graciane Diniz</a><br>
+                                        <small>Creative Design</small> Responsible for all the beauty both on site and in advertising.</div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="thumbnail_3">
+                                    <figure class="img-circle"><img src="img/page1-img9.png" alt="" class="img-circle"></figure>
+                                    <div><a href="https://www.facebook.com/pastorantoniojunior/?ref=br_rs" class="lead">Pastor Antônio Júnior</a><br>
+                                        <small>Senior Adjuster</small> All that does not work, then man works like a charm.</div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="thumbnail_3">
+                                    <figure class="img-circle"><img src="img/page1-img10.jpg" alt="" class="img-circle"></figure>
+                                    <div><a href="https://www.facebook.com/AlexMorganSoccer/?ref=br_rs" class="lead">Alex Morgan</a><br>
+                                        <small>Senior engineer</small> In the hands of this girl all the technical abilities of our servers improve significantly.</div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="thumbnail_3">
+                                    <figure class="img-circle"><img src="img/page1-img11.jpg" alt="" class="img-circle"></figure>
+                                    <div><a href="https://www.facebook.com/doerr88?fref=ts" class="lead">John Doerr</a><br>
+                                        <small>Creative Design</small> All that may relate to layout and design him on the shoulder.</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==============================footer=================================-->
+<!--==============================footer=================================-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <ul class="list-banners">
+                    <h1 style="text-align:center;">Our partners.</h1>
+                    <li><a><img class="grayscale" src="img/banner-1.png" alt=""></a></li>
+                    <li><a><img class="grayscale" src="img/banner-2.png" alt=""></a></li>
+                    <li><a><img class="grayscale" src="img/banner-3.png" alt=""></a></li>
+                    <li><a><img class="grayscale" src="img/banner-4.png" alt=""></a></li>
+                    <li><a><img class="grayscale" src="img/banner-5.png" alt=""></a></li>
+                    <li><a><img class="grayscale" src="img/banner-6.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer 2 -->
+        <div class="footer-2">
+            <div class="row">
+                <div class="span12">
+                    <p>Shield host &copy; 2016 <a href="pp.html">Privacy Policy</a></p>
+                    <div class="socials">
+                        <ul class="socialmedia-widget">
+                            <li><a href="#" class="facebook"></a></li>
+                            <li><a href="#" class="twitter"></a></li>
+                            <li><a href="#" class="thumblr"></a></li>
+                            <li><a href="#" class="vimeo"></a></li>
+                            <li><a href="#" class="deviantart"></a></li>
+                            <li><a href="#" class="behance"></a></li>
+                            <li><a href="#" class="flickr"></a></li>
+                            <li><a href="#" class="forrst"></a></li>
+                            <li><a href="#" class="linkedin"></a></li>
+                            <li><a href="#" class="dribbble"></a></li>
+                            <li><a href="#" class="rss"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- Elastislider  -->
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<!-- Camera Slider  -->
+<script type="text/javascript" src="js/camera.js"></script>
+<!-- Sticky  -->
+<script type="text/javascript" src="js/sticky.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!-- Totop  -->
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+<!-- Portfolio  -->
+<script type="text/javascript" src="js/prettify.js"></script>
+<script type="text/javascript" src="js/application.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!-- Accordion  -->
+<script type="text/javascript" src="js/accordion.js"></script>
+<!-- Tabs  -->
+<script type="text/javascript" src="js/tabs.js"></script>
+<!-- Sitemap  -->
+<script type="text/javascript" src="js/sitemap.js"></script>
+<!-- Mobile Navigation  -->
+<script type="text/javascript" src="js/nav-small.js"></script>
+<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+<!-- Camera Slider  -->
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<!-- Carousel  -->
+<script>
+    jQuery("#carousel-blog").elastislide({
+        imageW     : 270,
+        minItems   : 2,
+        speed      : 600,
+        easing     : "easeOutQuart",
+        margin     : 30,
+        border     : 0,
+        onClick    : function() {}
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Room servers for all possibilities.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Hosting Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <!-- Custom Theme files -->
+    <!-- webfonts -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/order_now.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/icomoon.css" type="text/css" media="all">
+    <!-- valid -->
+    <script type="text/javascript">
+        function ValidMail() {
+            var re = /^[\w-\.]+@[\w-]+\.[a-z]{2,4}$/i;
+            var myMail = document.getElementById('e-mail').value;
+            var valid = re.test(myMail);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'E-mail is incorrect!';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+
+        function ValidPhone() {
+            var re = /^[+]+[\d]+[\d\(\)\ -]+[\d]+$/;
+            var myPhone = document.getElementById('phone').value;
+            var valid = re.test(myPhone);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'Phone number is incorrect, please type full phone number. Example: "+1*****"';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+    </script>
+    <!-- dropdown -->
+    <script src="js/jquery.easydropdown.js"></script>
+    <link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- end-smoth-scrolling -->
+</head><!-- Header Starts Here -->
+<div class="banner" >
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img class="logo-img" src="images/logo.png" alt=""></a>
+            </div>
+
+            <span class="menu"> Menu</span>
+
+            <div class="banner-top">
+                <ul class="nav banner-nav">										<li><a href="index.html">Home</a></li>
+                    <li class="dropdown1"><a class="down-scroll" href="">Hosting</a>
+                        <ul class="dropdown2">
+                            <li><a href="sharedhosting.html">Shared hosting</a></li>
+                            <li><a href="vps.html">Virtual Private Server</a></li>
+                            <li><a href="dedicated-servers.html">Dedicated servers</a></li>
+                        </ul>										</li>
+                    <li class="dropdown1"><a class="down-scroll active" href="">Information</a>
+                        <ul class="dropdown2">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="support.html">Support</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="pp.html">Private Policy</a></li>
+                            <li><a href="tofu.html">Terms of Use</a></li>
+                        </ul>										</li>
+                    <li class="dropdown1"><a class="down-scroll" href="blog.html">News</a>
+                    </li>
+                    <li class="dropdown1"><a href="contact.html">Contact</a></li>
+                </ul>
+                <script>
+                    $("span.menu").click(function(){
+                        $(" ul.nav").slideToggle("slow" , function(){
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix"> </div>
+
+        </div>
+    </div>
+    <!-- page heading -->
+    <div id="breadcrumb_wrapper">
+        <div class="container">
+
+            <h3>FAQ</h3>
+            <h6>Here are the most basic questions about how to use our service.</h6>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"> </div>
+<!-- Header Ends Here -->
+<div class="faq-page">
+    <div class="container">
+        <div class="faq-page-head">
+            <h3>FAQ's</h3>
+        </div>
+        <div class="about_desc">
+            <div class="questions">
+                <ul>
+                    <li><a class="scroll" href="#qus-1">1. General technical issues.</a></li>
+                    <li><a class="scroll" href="#qus-2">2. Payment and billing.</a></li>
+                    <li><a class="scroll" href="#qus-3">3. Terms of services.</a></li>
+                    <li><a class="scroll" href="#qus-4">4. Account.</a></li>
+                    <li><a class="scroll" href="#qus-5">5. Virtual server (VDS).</a></li>
+                </ul>
+            </div>
+            <div class="question-answers">
+                <div id="qus-1" class="answers">
+                    <h4>1. General technical issues.</h4>
+                    <p><b>do You support the ability to assign multiple IP addresses to the dedicated one (dedicated) or virtual server (VDS)?</b><br> You can order up to 8 IP addresses on a dedicated (dedicated) or virtual server (VDS).</p>
+                    <p><b>What control panel do you provide services?</b><br>- the management is through the hosting panel ISPmanager
+                        <br>- managing virtual servers (VDS) as the iron (restart, stop, etc.) is carried out through VDSmanager, to administer the VDS You can install the prepared images with built<br>-in and customized panels VestaCP (free) or ISPmanager 5 Lite (surcharge) upon request
+                        <br>- the management of dedicated servers as the hardware (restart, stop, etc.) is carried out through DCImanager, to administer the VDS You can install the prepared images with built<br>-in and customized panel ISPmanager 5 Lite (surcharge) upon request
+                        You can put any control panel, which is considered necessary as we provide root access on the server.</p>
+                    <p><b>You provide the service of data backup (backup)?</b><br>No, but we are working on it. In the near future You will be able to get ftp repository for backups of all the information You need.
+
+                        For virtual servers (VDS) there is implicit redundancy through the mirroring of the repositories. And to save the machines state prior to important changes, You can use the snapshots (snapshot). We have not yet determined whether to enable the ability to create backups in the control panel server, because for a correct and complete copy of Your virtual machine, it is necessary to suspend that will interrupt the running of the services.
+
+                        We recommend You to use for free data backup virtual disks, such as Google Drive, One drive, Mail.ru disc, BOX, etc.</p>
+                    <p><b>How can I change my IP address?</b><br>You can order additional IP on Your server. This is a paid service. Also, You can delete your server and may, when creating a new server You will get a different IP. The removal of the paid server does not return the money to Your account.</p>
+                    <p><b>I get a dedicated "white" static IP address (dedicated static ip) for the ordered service?</b><br>the IP address given to You dedicated or virtual server (dedicated, VPS) is routable on the Internet and is assigned directly to the interface of Your machine without the use of any of the translations (NAT) static and reserved until You delete it.
+                        Backup server does not guarantee maintaining the same IP address that was assigned to You.
+                        Virtual hosting (shared hosting) by itself implies that many sites are under one IP, because in that case, Your IP will not be allocated to You personally.</p>
+                    <p><b>What are your security settings (security settings) by default (ports, firewalls)?</b><br>By default, all ports open, no restrictions from our side. We encourage customers to set their own security settings and to ensure the security of their services.</p>
+                    <p><b>do You offer hosting or dedicated (dedicated) and virtual server (VDS) on Windows?</b><br>Yes. We are a Microsoft SPLA and ready to provide You with licensed software of Microsoft, in particular Windows 2012 standard, Windows 2008 standard.</p>
+                    <p><b>What is your architecture and technical implementation?</b><br>Despite the low prices, our architecture is similar failover clustering (high-availability cluster), which is built using tested for years in production of open and commercial software (software) and iron (hardware).
+                        <br>- All servers are running on CentOS 6, which ensures a homogeneous environment and simplifies administration and security.
+                        <br>- All services are run on clusters.
+                        <br>- All cluster standard.
+                        <br>- Standard cluster is a node-based server Dell c6100 server with 6-core Intel Xeon processors and storage based on Supermicro servers with 6-core Intel Xeon and SSD RAID 5 controller based on LSI.
+                        <br>- Cluster is served by switches, Juniper and IBM, and is connected via 10Gbps uplink.
+                        <br>- Each node is connected with two 1Gbps interfaces to provide fault tolerance for the physical link and provides the ability to create internal virtual links between virtual machines to 40Gbps.
+                        <br>- Storage connected by iSCSI 10Gbps interfaces.</p>
+                </div>
+                <div id="qus-2" class="answers">
+                    <h4>2. Payment and billing.</h4>
+                    <p><b>How can I make a request?</b><br>To order the service, You need to fill in the registration form on the website and confirm your email by clicking on the link, which will come in the letter specified in the check box. After that You have to log in your Personal account, where there will be the possibility of ordering our services.
+
+                        Your email is confirmed, so we know that You have not made a typo at the time of registration. Because in the case of typographical errors, You will not receive service messages for our billing in the case of services, which can lead to the suspension of services if You do not get payment reminders or messages about changing any settings.
+
+                        To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p>
+                    <p><b>How to use promo code?</b><br>You can use a promo code in a private office at the time of ordering services and payment. A request to use promo code will be in one of the steps of ordering and payment.</p>
+                    <p><b>How can I find out the account number for payment?</b><br>In the personal area under the menu "Finance" select "Payments". You open the table you created earlier payments. The figure indicated in the column "account Number" next to the desired payment and have his number.</p>
+                </div>
+                <div id="qus-3" class="answers">
+                    <h4>3. Terms of services.</h4>
+                    <p><b>How do I check conformance I get the service advertised?</b><br>You can use our looking glass or website speedtest.net to check the speed.</p>
+                    <p><b>What's the rules for refund?</b><br>In case You are not satisfied with the quality of our services, create a ticket with the appropriate application and description of the problems that You experienced. Your appeal will be considered.
+                        if it was filed within the first 3 days of using the service, we will return funds that have been prepaid in full.
+                        if an appeal will be made later, we will consider the objectivity of Your statements, if You experienced problems will be able to replicate or find evidence of problems by examining logs\charts monitoring system, we will return the funds. The refund is made to Your balance.
+                        In case of additional requirements, we can make a return by translating a valid Bank account or other electronic payment system, which is available to us. In this case, the amount of the reasonably incurred costs will not be refunded (domain name registration, software licenses, man-hours of work). If the transfer of the payment there is a Commission, it is paid by the recipient.</p>
+                    <p><b>What guarantee do you have on the level of accessibility?</b><br>We guarantee the availability of services in the area of our responsibility at the level of 99.8%, otherwise money will be refunded at your request.</p>
+                </div>
+                <div id="qus-4" class="answers">
+                    <h4>4. Account.</h4>
+                    <p><b>How to create an account?</b><br>To create the account, go through the registration process on the website.
+
+                        You need to fill in the registration form and confirm your email by clicking on the link, which will come in the letter specified in the check box. You will then be able to log into your Personal account, where there will be the possibility of ordering our services.
+
+                        Your email is confirmed, so we know that You have not made a typo at the time of registration. Because in the case of typographical errors, You will not receive service messages for our billing in the case of services, which can lead to the suspension of services if You do not get payment reminders or messages about changing any settings.
+
+                        To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p>
+                    <p><b>Why I must undergo verification by phone number?</b><br>To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p>
+                    <p><b>I forgot my username and / or password to your account, how do I get access to the personal Cabinet?</b><br>To resume the account password You need to click the link "Forgot password?" in the login form to the Personal Cabinet and enter in the opened form, the email address specified by You during registration. Notes and hints for password recovery will be sent to this address.
+
+                        In case you forgot the name, resume access is not possible. In case of emergency, You can try to contact support and go through multiple and varied verification, if possible, and then get the name for access.</p>
+                </div>
+                <div id="qus-5" class="answers">
+                    <h4>5. Virtual server (VDS).</h4>
+                    <p><b>What virtualization technology do you use for VDS?</b><br>We use KVM virtualization, which allows customers to receive guaranteed resources when you order the virtual server.</p>
+                    <p><b>What is the processor speed on the basic VDS?</b><br>We use processors with frequency from 2GHz to 3GHz. To see the speed and other characteristics of the processor given to You by the hypervisor, run the following command
+
+                        cat /proc/cpuinfo</p>
+                    <p><b>You provide console access to my VDS?</b><br>Yes. You can get console access to your server via VNC. The button is located in the control panel of the server.</p>
+                </div>
+            </div>
+            <p><script type="text/javascript">// <![CDATA[
+            jQuery(document).ready(function($) { 			$(".scroll").click(function(event){		 				event.preventDefault(); 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200); 			}); 		});
+            </script></p>
+
+        </div>
+        <div class="clear"></div>
+
+
+    </div><!-- #content -->
+</div>
+
+<!-- #Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="title">Latest <a href="blog.html">News</a></span>
+                <p>Approval Of The New Head Of Technical Support. Now that office will be managed by Michael Bennington. By nature very kind, but harsh and demanding to subordinates.<span class="tweetTime">12.04.2016</span></p>
+                <p>The equipment for hosting. How to choose the right equipment for hosting? What equipment is best?<span class="tweetTime">02.04.2016</span></p>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerMenu">
+                    <li class="title">The documents for review.</li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="pp.html">Private Policy</a></li>
+                    <li><a href="tofu.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerMenu">
+                    <li class="title">Services</li>
+                    <li><a href="#">Virtual Private Servers</a></li>
+                    <li><a href="#">Dedicated Servers</a></li>
+                    <li><a href="#">cloud vps</a></li>
+                    <li><a href="#">Server Management</a></li>
+                    <li><a href="#">Script Installation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerAddress">
+                    <li class="title">Contact Us</li>
+                    <li><strong>Address:</li>
+                    <li>1 Centre St,New York, NY 10007,USA</li>
+                    <li><strong>Phone:</strong></li>
+                    <li>+1 212-966-3866</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="copyrights">
+        <div class="container">
+            <p>Copyrights &copy; 2016 Hosting-Room.com All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+        </div>
+    </div>
+</footer>
+<!-- /#Footer -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+           containerID: 'toTop', // fading element id
+           containerHoverID: 'toTopHover', // fading element hover id
+           scrollSpeed: 1200,
+           easingType: 'linear'
+        };
+        */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

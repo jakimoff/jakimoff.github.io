@@ -1,0 +1,613 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Best Hostin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/host.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/faq.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" media="all" href="icomoon/icomoon.css">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <script type="text/javascript" src="js/jquery-1.6.js" ></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-replace.js"></script>
+    <script type="text/javascript" src="js/Didact_Gothic_400.font.js"></script>
+    <script type="text/javascript" src="js/Shanti_400.font.js"></script>
+    <script src="js/roundabout.js" type="text/javascript"></script>
+    <script src="js/roundabout_shapes.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.2.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <style type="text/css">
+        .bg {behavior:url(js/PIE.htc)}
+    </style>
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <div style="clear: both; text-align:center; position: relative;">
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
+    </div>
+    <![endif]-->
+</head>
+<body id="page4">
+<div class="body1">
+    <div class="main">
+        <!-- header -->
+        <header>
+            <div class="wrapper">
+                <nav>
+                    <ul id="top_nav">
+                        <li><a href="tofu.html">Term of Use</a></li>
+                        <li><a href="private-policy.html">Private Policy</a></li>
+                        <li><a href="Support.html">Support</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </nav>
+                <span class="date">Monday, June 6, 2011  &nbsp; &nbsp; 17:19</span>
+            </div>
+            <div class="wrapper">
+                <h1><a href="index.html" id="logo">Best Host</a></h1>
+                <nav>
+                    <ul id="menu"><li><a href="index.html"><span><span>Home</span></span></a></li>
+                        <li><a href="dedicated.html"><span><span>Dedicated</span></span></a></li>
+                        <li class="nav3"><a href="vps.html"><span><span>VPS</span></span></a></li>
+                        <li class="nav4"><a href="news.html"><span><span>News&amp;Events</span></span></a></li>
+                        <li class="nav5"><a href="Contacts.html"><span><span>Contacts</span></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var question = $('#question'),
+                    item = $('#question li:has(h4)').addClass('closed');
+                $('div', question).hide();
+                item.click(function (e) {
+                    e.stopPropagation();
+                    $('> div', this).toggle();
+                    $(this).toggleClass('closed opened');
+                });
+                $('div:not(.closed)', question).click(function(e){
+                    e.stopPropagation();
+                });
+            });
+        </script>
+
+        <section class="service-segment">
+            <div class="container text-center">
+                <div class="content">
+                    <h3>FAQ</h3><br><br>
+                    <div id="question" class="body">
+
+                        <h3>General technical issues <a href="#obschie-tehnicheskie-voprosy" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-obschie-tehnicheskie-voprosy">
+                            <li>
+                                <h4> <span class="right">Read answer</span> do You support the ability to assign multiple IP addresses to the dedicated one (dedicated) or virtual server (VDS)?</h4>
+                                <div><p>You can order up to 8 IP addresses on a dedicated (dedicated) or virtual server (VDS).</p></div>
+                            </li>
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What control panel do you provide services? </h4>
+                                <div><p>- the management is through the hosting panel ISPmanager<br/>- managing virtual servers (VDS) as the iron (restart, stop, etc.) is carried out through VDSmanager, to administer the VDS You can install the prepared images with built-in and customized panels VestaCP (free) or ISPmanager 5 Lite (surcharge) upon request<br/>- the management of dedicated servers as the hardware (restart, stop, etc.) is carried out through DCImanager, to administer the VDS You can install the prepared images with built-in and customized panel ISPmanager 5 Lite (surcharge) upon request<br/>You can put any control panel, which is considered necessary as we provide root access on the server.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> You provide the service of data backup (backup)? </h4>
+                                <div><p>No, but we are working on it. In the near future You will be able to get ftp repository for backups of all the information You need.<br/><br/>For virtual servers (VDS) there is implicit redundancy through the mirroring of the repositories. And to save the machines state prior to important changes, You can use the snapshots (snapshot). We have not yet determined whether to enable the ability to create backups in the control panel server, because for a correct and complete copy of Your virtual machine, it is necessary to suspend that will interrupt the running of the services.<br/><br/>We recommend You to use for free data backup virtual disks, such as Google Drive, One drive, Mail.ru disc, BOX, etc.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How can I change my IP address? </h4>
+                                <div><p>You can order additional IP on Your server. This is a paid service. Also, You can delete your server and may, when creating a new server You will get a different IP. The removal of the paid server does not return the money to Your account.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> I get a dedicated "white" static IP address (dedicated static ip) for the ordered service? </h4>
+                                <div><p>the IP address given to You dedicated or virtual server (dedicated, VPS) is routable on the Internet and is assigned directly to the interface of Your machine without the use of any of the translations (NAT) static and reserved until You delete it.<br/>Backup server does not guarantee maintaining the same IP address that was assigned to You.<br/>Virtual hosting (shared hosting) by itself implies that many sites are under one IP, because in that case, Your IP will not be allocated to You personally.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What are your security settings (security settings) by default (ports, firewalls)? </h4>
+                                <div><p>By default, all ports open, no restrictions from our side. We encourage customers to set their own security settings and to ensure the security of their services.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> do You offer hosting or dedicated (dedicated) and virtual server (VDS) on Windows? </h4>
+                                <div><p>Yes. We are a Microsoft SPLA and ready to provide You with licensed software of Microsoft, in particular Windows 2012 standard, Windows 2008 standard.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What is your architecture and technical implementation?
+                                </h4>
+                                <div><p>Despite the low prices, our architecture is similar failover clustering (high-availability cluster), which is built using tested for years in production of open and commercial software (software) and iron (hardware).<br/>- All servers are running on CentOS 6, which ensures a homogeneous environment and simplifies administration and security. <br/>- All services are run on clusters. <br/>- All cluster standard. <br/>- Standard cluster is a node-based server Dell c6100 server with 6-core Intel Xeon processors and storage based on Supermicro servers with 6-core Intel Xeon and SSD RAID 5 controller based on LSI. <br/>- Cluster is served by switches, Juniper and IBM, and is connected via 10Gbps uplink. <br/>- Each node is connected with two 1Gbps interfaces to provide fault tolerance for the physical link and provides the ability to create internal virtual links between virtual machines to 40Gbps. <br/>- Storage connected by iSCSI 10Gbps interfaces.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How do I get the details for access to ordered services?
+                                </h4>
+                                <div><p>After ordering You will receive details to access the email that was registered. Also, You can see this information in the properties of the ordered services in a Private office.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Why didn't I receive email on the details for access to ordered services?
+                                </h4>
+                                <div><p>First of all, check your Spam folder, maybe the email got there. If You still do not receive the email, please contact technical support for assistance.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> you have DNS?
+                                </h4>
+                                <div><p>Yes. You can expect to use our DNS if necessary.<br/>Name servers:<br/><br/>ns1.gmhost.hosting<br/>ns2.gmhost.hosting</p></div>
+                            </li>
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> Why information geo-location in my IP address (GeoIP, location) is determined incorrectly?
+                                </h4>
+                                <div><p>the Geolocation of all IP addresses are handled by different governing bodies that issue these IP addresses for use by Internet service providers. A mismatch may occur between the as we get a new pool of IP addresses and time of updating the geography of the IP address pool organizations are responsible for updating their databases.<br/><br/>Because these organizations operate in their own mode, we cannot influence the speed with which they make geographical changes. If there is a discrepancy, it usually means that very soon the data will be updated.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> You have an API?
+                                </h4>
+                                <div><p>No, but we're working on it.</p></div>
+                            </li>
+                        </ul>
+
+
+                        <h3>Payment and billing <a href="#oplata-i-tarifikaciya" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-oplata-i-tarifikaciya">
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> You take the payment for the traffic?
+                                </h4>
+                                <div><p>No. Internet traffic is not charged additionally. Standard to all users allocated to non-guaranteed channel 100 Mbps.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What are the prices?
+                                </h4>
+                                <div><p>We affordable hosting and our prices are among the lowest in the market in terms of price\quality. Details on fees can be found on the page with the desired services:<br/><br/>- virtual hosting (shared hosting)<br/>- virtual server (VDS)<br/>- dedicated server (dedicated server)<br/>- domain name registration (domain registration)<br/>- provision of security certificates (ssl sertificate)<br/>- placement of servers (colocation)<br/>- developing web sites (site development)</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> How can I make a request?
+                                </h4>
+                                <div><p>To order the service, You need to fill in the registration form on the website and confirm your email by clicking on the link, which will come in the letter specified in the check box. After that You have to log in your Personal account, where there will be the possibility of ordering our services.<br/><br/>Your email is confirmed, so we know that You have not made a typo at the time of registration. Because in the case of typographical errors, You will not receive service messages for our billing in the case of services, which can lead to the suspension of services if You do not get payment reminders or messages about changing any settings.<br/><br/>To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What are your options for the deposits and forms of payment?
+                                </h4>
+                                <div><p>Deposit to the account can transfer via Bank, credit cards Visa and MasterCard, via Privat24, Webmoney, Yandex.Money, PayPal or any method available to the exchange in the system interkassa. With a detailed description of the options and terms of payment can be found on the Payment page.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> do I Have to pay something when I sign up or have your server to test?
+                                </h4>
+                                <div><p>No. Registration does not obligate You financially. In addition, in the case that You will not order the service for a test, You may not provide any other information about yourself, in addition to email. If you order a server to test, You will not be required to undertake the renewal and payment of such servers if you don't want to do it yourself.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> do I have to Pay in the case when I ordered the service, but don't use it?
+                                </h4>
+                                <div><p>Yes. If you have carried out a service order and we made a treatment order (issued by the server, registered the domain, etc.) this means that we have reserved for you the hardware and software resources (e.g. disk space, CPU and RAM and IP, if you order a VDS). In order to stop paying for the service, you have to delete it in the dashboard. In this case, the money for the next period will not be removed from Your account, but this action does not return to the account already taken of the sum.</p></div>
+                            </li>
+                            <li>
+                                <h4> <span class="right">Read answer</span> What are your periods of service ordering and payment?
+                                </h4>
+                                <div><p>All services are billed on a monthly basis. This is the minimum period for which it is possible to pay and for which it is possible to order the services. Some services, such as domain name registration, tarificador for the year.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> I made a Deposit, but my balance has not changed, why?
+                                </h4>
+                                <div><p>Your balance is updated after the receipt of funds on our account. The amount credited depends on the rules of payment system / Bank through which You do your payment, it usually occurs instantly, in rare cases, takes some time - from several minutes to several days. For more details, study sites, or get help from relevant operators\banks. Bank transfer is usually not instantaneous and may be performed up to several days, it depends on the Bank through which You pay. To expedite the transfer of money to Your account, send us a scanned copy or photo copy of the payment receipt by email support@gmhost.com.ua marked "Financial issues (payment)" and indicating the name of the payer that is registered in our billing system from which you want to make money.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How to use promo code?
+                                </h4>
+                                <div><p>You can use a promo code in a private office at the time of ordering services and payment. A request to use promo code will be in one of the steps of ordering and payment.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> You offer refunds?
+                                </h4>
+                                <div><p>if Your account remains unused funds, we may return them at Your request in to tech support. Also, it is possible to return to the account charged for the services, if there is a situation, when such services were objectively poor quality and this is the result of our actions or inaction.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> How and when is the amount charged from my account?
+                                </h4>
+                                <div><p>the Debiting of Your account is made when You ordered the service. Funds are debited immediately in full for the ordered period.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> can I transfer money from one account to another?
+                                </h4>
+                                <div><p>You can't transfer money from one account to another. But if you still have any such circumstances in which the problem cannot be solved in another way, You can create a ticket in technical support with the request to move funds. If we deem such action to be reasonable and necessary, it will be possible to transfer funds between accounts.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How can I find out the account number for payment? </h4>
+                                <div><p>In the personal area under the menu "Finance" select "Payments". You open the table you created earlier payments. The figure indicated in the column "account Number" next to the desired payment and have his number.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How I can find out your number of the payer? </h4>
+                                <div><p>In the personal area under the menu "Customer", select "Payers". You open the table created previously by the taxpayer. The figure indicated in the column "Code" next to the name of the payer and have his number.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Transfer money through the Bank. </h4>
+                                <div><p>Bank transfer is the only payment type that is a manual. Therefore, it may be a slight delay when you receive money to your account.<br/>also, the time arrival of money to the account depends on the Bank through which you paid. Money can be transferred to us from several hours to several days.</p></div>
+                            </li>
+
+                        </ul>
+
+                        <h3>Terms of services <a href="#usloviya-predostavleniya-servisov" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-usloviya-predostavleniya-servisov">
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Where I can find the rules and regulations of service?
+                                </h4>
+                                <div><p>the Rules, conditions and regulations specified in our offer.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How do I check conformance I get the service advertised?
+                                </h4>
+                                <div><p>You can use our looking glass or website speedtest.net to check the speed.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How do you feel about the encrypted traffic (vpn, tor, etc.)?
+                                </h4>
+                                <div><p>If the use of such services is not associated with illegal activities or high channel utilization, we see no reason to ban encrypted traffic. At the same time, You have to understand that from our point of view, You are responsible for those users and the traffic that passes through Your servers, because we have no way to see the difference between You and customers of Your site. We do not recommend that you run public services, to which, probably, can connect customers with fraudulent purposes.</p></div>
+                            </li>
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> How do you feel about illegal and banned content \ the provision of illegal or unethical services (spam, pornography, copyrighted objects, botnets, etc.)?
+                                </h4>
+                                <div><p>In case of receipt of complaints (abuse), if Your services or content directly or indirectly violate the rules of network etiquette, or the laws of Ukraine, we will suspend your services if cursory inspection of the grounds for the complaint will show that any (complaint confirmed). We will forward You the complaint and will wait for Your response. Our policy in resolving such issues based on what the owner of the server or hosting should be attentive to complaints and always respond in the shortest possible time. In response we provide the following amount of time, depending on the severity of the violation:<br/>-Trojans\viruses\phishing sites - 3 hours;<br/>-pornographic content\humiliation, insult people - 12 hours;<br/>-spam / other violations - 24 hours;<br/>Lack of response on Your part may result in the suspension of your account or deletion of Your server or hosting.<br/>it is Prohibited to place the following materials and services:<br/>- Pornography, erotica in any form and for any purpose<br/>- Spam<br/>- Any resources relevant to the botnet<br/>- Illegal distribution of software, audio and video, programs for “hacking” software<br/>- Fraud in any form (phishing, etc.)<br/>- the Distribution and/or advertising of illegal substances<br/>the List may be supplemented.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What's the rules for refund?
+                                </h4>
+                                <div><p>In case You are not satisfied with the quality of our services, create a ticket with the appropriate application and description of the problems that You experienced. Your appeal will be considered. <br/>if it was filed within the first 3 days of using the service, we will return funds that have been prepaid in full. <br/>if an appeal will be made later, we will consider the objectivity of Your statements, if You experienced problems will be able to replicate or find evidence of problems by examining logs\charts monitoring system, we will return the funds. The refund is made to Your balance. <br/>In case of additional requirements, we can make a return by translating a valid Bank account or other electronic payment system, which is available to us. In this case, the amount of the reasonably incurred costs will not be refunded (domain name registration, software licenses, man-hours of work). If the transfer of the payment there is a Commission, it is paid by the recipient.</p></div>
+                            </li>
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What's the rules on blocking and removal services?
+                                </h4>
+                                <div><p>Lockout service<br/>At the end of the subscription period All services are automatically renewed. If Your balance is not enough to remove the payment for the next period of using the service, the service is automatically blocked.<br/> <br/>Removal services<br/>Blocked billing for non-payment of services after some time automatically deleted:<br/>- virtual servers (VDS) are deleted after 2 days<br/>- dedicated server (dedicated) removed after 1 day<br/>- virtual hosting (shared hosting) is deleted after 7 days<br/>- placement of servers (colocation) is deleted after 7 days<br/>removal Procedure:<br/>- virtual servers (VDS) - removed the virtual machine images<br/>- dedicated server (dedicated) - formatted disks, the machine is released for the issuance of any other client<br/>- virtual hosting (shared hosting) - removes the user and his directory on drive<br/>- placement of servers (colocation) - removed in-billing and creates a ticket for the engineer about the removal of the equipment from the hermetical unit and placing it in the warehouse<br/>- if you have been issued an IP address, they mark the free for issue to other customers.<br/><br/>the Rooms blocked for substantial violations of the terms of (spam, illegal content, botnets, and other illegal actions) can be cleared in any period, at the discretion of the engineer, who is responsible for each ticket in violation of the rules, if the customer no response.<br/> </p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What is the regulations for the protection and privacy of customer data?
+                                </h4>
+                                <div><p>We respect Your privacy and care about the safety and protection of Your personal information. Any information obtained from You will be used only to fulfill Your order or provide measures to protect Your account. We do not share or sell Your information to third parties.<br/>Our policy consideration of applications concerning violations aimed at comprehensive review of each individual treatment. Before taking any action, we will have to ensure 100% legitimacy of submitted claims. On every such request we are obliged to inform our customers.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How quickly to expect a response to my request?
+                                </h4>
+                                <div><p>the Order and installation of servers and hosting, You usually receive the order within a few minutes. To the request in the ticket system and we usually respond within half an hour.<br/></p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> How can I make a suggestion for your services and work?
+                                </h4>
+                                <div><p>You can create a ticket in the category "Questions and suggestions to the leadership."</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What guarantee do you have on the level of accessibility?
+                                </h4>
+                                <div><p>We guarantee the availability of services in the area of our responsibility at the level of 99.8%, otherwise money will be refunded at your request.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> You provide services for administering services and configuring servers users ?
+                                </h4>
+                                <div><p>Yes. This is a paid service.</p></div>
+                            </li>
+
+
+                        </ul>
+
+                        <h3>Account <a href="#uchetnaya-zapis" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-uchetnaya-zapis">
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> How can I completely delete my account?
+                                </h4>
+                                <div><p>To remove an account, create a ticket requesting technical support.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> How to create an account?
+                                </h4>
+                                <div><p>To create the account, go through the registration process on the website.<br/><br/>You need to fill in the registration form and confirm your email by clicking on the link, which will come in the letter specified in the check box. You will then be able to log into your Personal account, where there will be the possibility of ordering our services.<br/><br/>Your email is confirmed, so we know that You have not made a typo at the time of registration. Because in the case of typographical errors, You will not receive service messages for our billing in the case of services, which can lead to the suspension of services if You do not get payment reminders or messages about changing any settings.<br/><br/>To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Why should I confirm my email?
+                                </h4>
+                                <div><p>Your email is confirmed, so we know that You have not made a typo at the time of registration. Because in the case of typographical errors, You will not receive service messages for our billing in the case of services, which can lead to the suspension of services if You do not get payment reminders or messages about changing any settings.</p></div>
+                            </li>
+                            <li>
+                                <h4> <span class="right">Read answer</span> Why I must undergo verification by phone number?
+                                </h4>
+                                <div><p>To protect against fraud, You may need to perform additional verification by phone number (through the introduction of code that we will send to You via SMS) in case of ordering services to the test. We are very sorry, but have to add this step, because getting a lot of registrations for the implementation of fraud through our servers. We took this decision after he started to receive complaints on all sorts of unacceptable actions with more than 5% of test servers. The phone will not be used for spam and in any case will not be transferred to third parties, it can be used to obtain information about the scams, if needed.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Why am I not getting emails to confirm email?
+                                </h4>
+                                <div><p>First of all, check your Spam folder, maybe the email got there. If You still do not receive the email, You probably made a mistake when you entered your email in the registration form. Try again. If You do not receive the email at the second attempt, contact technical support for assistance.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Why don't you send the password on email?
+                                </h4>
+                                <div><p>Passwords are not sent and are not stored by us in the clear for the purpose of ensuring security.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> I forgot my username and / or password to your account, how do I get access to the personal Cabinet?
+                                </h4>
+                                <div><p>To resume the account password You need to click the link "Forgot password?" in the login form to the Personal Cabinet and enter in the opened form, the email address specified by You during registration. Notes and hints for password recovery will be sent to this address.<br/><br/>In case you forgot the name, resume access is not possible. In case of emergency, You can try to contact support and go through multiple and varied verification, if possible, and then get the name for access.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> can I have multiple accounts?
+                                </h4>
+                                <div><p>No. Registration of one person multiple accounts is regarded by us as an attempt to conduct fraudulent activities using our services. If You have multiple accounts, e.g. work and personal, You can create several payers in a Private office with the properties of the "Physical person" and "Enterprise". If You need to create a second account, create a support ticket in a technical support resolution request. In this case, we fast also verify your account and will know that You are not plotting fraudulent activities.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What are the requirements for account password?
+                                </h4>
+                                <div><p>We recommend you use complicated passwords for Your accounts. A good password should contain digits, letters in uppercase and / or lowercase, special characters and have a not less than eight characters. Example of a good password: i9DTs)4pT7.</p></div>
+                            </li>
+
+                        </ul>
+
+
+
+                        <a name="o-nas"></a>
+                        <h3>About us <a href="#o-nas" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-o-nas">
+                            <li>
+                                <h4> <span class="right">Read answer</span> Who are you?
+                                </h4>
+                                <div><p>We are a team of experienced managers and IT professionals. We offer hosting with excellent ratio price\quality. We have 10 years of experience in IT. GMhost the company was founded in 2014. We are LIR (RIPE NCC member) and Microsoft SPLA. We are trusted by both small websites and large portals, the websites of government agencies and large high-load projects and Internet startups.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What services do you provide?
+                                </h4>
+                                <div><p>We provide the following services<br/><br/>- virtual hosting (shared hosting)<br/>- virtual server (VDS)<br/>- dedicated server (dedicated server)<br/>- domain name registration (domain registration)<br/>- provision of security certificates (ssl sertificate)<br/>- placement of servers (colocation)<br/>- developing web sites (site development)</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What are your strengths and chips?
+                                </h4>
+                                <div><p> we cheap<br/>- the traffic is not charged additionally<br/>- allocate servers and hosting in seconds<br/>- free trial<br/> solid state drives<br/>- excellent accessibility to the CIS and Europe</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> you Have a very low price, how do you make money?
+                                </h4>
+                                <div><p>we are not just cheap, we managed to develop a business model, which allows us to provide services at prices the hosting of initial level, with quality and time availability, which is not inferior to modern corporate standards and use of server hardware by brand manufacturers. This is our thing. At the time, when usually on the market Runet for a small price of hiding the catch in the form of a lack of guarantees for normal operation, saving on hardware and specialists, saving on the architecture and services ensuring smooth operations of technical fields, we find solutions that allow the use of modern technical implementation at an affordable price, which affects prices for customers.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> What is your market positioning?
+                                </h4>
+                                <div><p>We occupied a niche of inexpensive hosting with the best ratio price\quality. Our services will interest first of all, customers who want to quickly get your server without waiting several hours or days: quick registration and setup servers with the test period. You can start to work immediately and payment can be done after. Also, we make a serious competition to any host that takes payment for traffic, as all our servers don't require additional charges for traffic.</p></div>
+                            </li>
+
+
+                            <li>
+
+                                <h4> <span class="right">Read answer</span> Do you have an affiliate (referral) program?
+                                </h4>
+                                <div><p>Yes. In addition, our affiliate program is unique in that you get deductions from payments Your referred clients and do not receive a one-time payment. Contributions are 10%.<br/>also, You can get the money to the account by writing a review or other article about us or our services and taking an active part in the development of our community.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> Where you located?
+                                </h4>
+                                <div><p>Our office and private technical Playground Tier2 is located in Khmelnytskyi, Ukraine.</p></div>
+                            </li>
+
+
+                        </ul>
+
+                        <h3>Virtual server (VDS) <a href="#virtualnye-servera-(VDS)" class="wiki-anchor">&nbsp;&nbsp;&nbsp;</a></h3>
+
+                        <ul class="block" id="block-virtualnye-servera-(VDS)">
+                            <li>
+                                <h4> <span class="right">Read answer</span> What virtualization technology do you use for VDS?
+                                </h4>
+                                <div><p>We use KVM virtualization, which allows customers to receive guaranteed resources when you order the virtual server.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> I can create a custom virtual server configuration?
+                                </h4>
+                                <div><p>No, we abandoned this possibility due to difficulties with the disk resize on the fly.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What is the processor speed on the basic VDS?
+                                </h4>
+                                <div><p>We use processors with frequency from 2GHz to 3GHz. To see the speed and other characteristics of the processor given to You by the hypervisor, run the following command<br/><br/>cat /proc/cpuinfo<br/><br/> </p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> What types of file systems you use on a VDS?
+                                </h4>
+                                <div><p>We use lvm and Qcow2.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> You provide console access to my VDS?
+                                </h4>
+                                <div><p>Yes. You can get console access to your server via VNC. The button is located in the control panel of the server.</p></div>
+                            </li>
+
+
+                            <li>
+                                <h4> <span class="right">Read answer</span> which processors are you working on?
+                                </h4>
+                                <div><p>We are working on 6-core Intel Xeon.</p></div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+</section>
+
+<div class="body2">
+    <div class="main">
+        <article id="content2">
+            <section class="col_1">
+                <h3>What you need to know!</h3>
+                <ul class="list1">
+                    <li><a href="/news.html#free-host">Free hosting</a></li>
+                    <li><a href="/news.html#ssd">We only have ssd</a></li>
+                    <li><a href="/news.html#ali">With us is profitable</a></li>
+                </ul>
+            </section>
+            <section class="col_2">
+                <h3>Follow</h3>
+                <ul id="icons">
+                    <li><a class="fa soc-footer fa-facebook" href="https://www.facebook.com/"> Facebook</a></li>
+                    <li><a class="fa soc-footer fa-twitter" href="https://twitter.com/"> Twitter</a></li>
+                    <li><a class="fa soc-footer fa-linkedin" href="https://www.linkedin.com/"> LinkedIn</a></li>
+                </ul>
+            </section>
+            <section class="col_2">
+                <h3>Us</h3>
+                <ul id="icons">
+                    <li><a class="fa soc-footer fa-youtube" href="https://www.youtube.com/"> Youtube</a></li>
+                    <li><a class="fa soc-footer fa-google" href="https://plus.google.com"> Google +</a></li>
+                    <li><a class="fa soc-footer fa-pinterest" href="https://www.pinterest.com/"> Pinterest</a></li>
+                </ul>
+            </section>
+            <section class="col_1">
+                <h3>Address</h3>
+                <p class="address">
+               <span>
+                  Country:<br>
+                  City:<br>
+                  Email:
+               </span>
+                    USA<br>
+                    California<br>
+                    <a href="mailto:best-hostin@mail.com">best-hostin@mail.com</a>
+                </p>
+            </section>
+        </article>
+        <!-- / content -->
+    </div>
+</div>
+<div class="main">
+    <!-- footer -->
+    <footer>
+        <p>All rights reserved LTD. "Best hostin" 2016® </br>All materials on this site are subject to copyright</br>
+            No copying, distribution or any other use of the information and facilities without the written consent of the copyright holder.</p>
+    </footer>
+    <!-- / footer -->
+</div>
+<script type="text/javascript"> Cufon.now();</script>
+</body>
+</html>

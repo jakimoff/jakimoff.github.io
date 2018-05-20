@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?6ftufa');
+    src:    url('../fonts/icomoon.eot?6ftufa#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?6ftufa') format('truetype'),
+        url('../fonts/icomoon.woff?6ftufa') format('woff'),
+        url('../fonts/icomoon.svg?6ftufa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cog2:before {
+    content: "\e900";
+}
+.icon-mail:before {
+    content: "\e919";
+}
+.icon-spin:before {
+    content: "\e901";
+}
+.icon-curved-arrow:before {
+    content: "\e902";
+}
+.icon-envelope:before {
+    content: "\e91a";
+}
+.icon-plus2:before {
+    content: "\e903";
+}
+.icon-wrench:before {
+    content: "\e904";
+}
+.icon-refresh2:before {
+    content: "\e905";
+}
+.icon-database2:before {
+    content: "\e906";
+}
+.icon-git-branch:before {
+    content: "\f020";
+}
+.icon-git-compare:before {
+    content: "\f0ac";
+}
+.icon-settings:before {
+    content: "\f07c";
+}
+.icon-tools:before {
+    content: "\f031";
+}
+.icon-folder-download:before {
+    content: "\e907";
+}
+.icon-box-add:before {
+    content: "\e908";
+}
+.icon-download2:before {
+    content: "\e909";
+}
+.icon-database:before {
+    content: "\e90a";
+}
+.icon-cogs2:before {
+    content: "\e90b";
+}
+.icon-download3:before {
+    content: "\e90c";
+}
+.icon-plus:before {
+    content: "\e90d";
+}
+.icon-loop2:before {
+    content: "\e90e";
+}
+.icon-embed2:before {
+    content: "\e90f";
+}
+.icon-git2:before {
+    content: "\e910";
+}
+.icon-file:before {
+    content: "\e91b";
+}
+.icon-files:before {
+    content: "\e91c";
+}
+.icon-download4:before {
+    content: "\e911";
+}
+.icon-cogs3:before {
+    content: "\e912";
+}
+.icon-cog3:before {
+    content: "\e922";
+}
+.icon-time:before {
+    content: "\e923";
+}
+.icon-headphones:before {
+    content: "\e91d";
+}
+.icon-upload:before {
+    content: "\e924";
+}
+.icon-locked:before {
+    content: "\e925";
+}
+.icon-locked2:before {
+    content: "\e926";
+}
+.icon-bookmark:before {
+    content: "\e91e";
+}
+.icon-envelope2:before {
+    content: "\e91f";
+}
+.icon-envelope3:before {
+    content: "\e920";
+}
+.icon-book:before {
+    content: "\e921";
+}
+.icon-all_inclusive:before {
+    content: "\eb3d";
+}
+.icon-cloud_upload:before {
+    content: "\e2c3";
+}
+.icon-beenhere:before {
+    content: "\e52d";
+}
+.icon-compare_arrows:before {
+    content: "\e915";
+}
+.icon-restore:before {
+    content: "\e8b3";
+}
+.icon-low_priority:before {
+    content: "\e16d";
+}
+.icon-verified_user:before {
+    content: "\e8e8";
+}
+.icon-settings2:before {
+    content: "\e913";
+}
+.icon-cog:before {
+    content: "\f013";
+}
+.icon-gear:before {
+    content: "\f013";
+}
+.icon-download:before {
+    content: "\f019";
+}
+.icon-refresh:before {
+    content: "\f021";
+}
+.icon-mail-forward:before {
+    content: "\f064";
+}
+.icon-share:before {
+    content: "\f064";
+}
+.icon-cogs:before {
+    content: "\f085";
+}
+.icon-gears:before {
+    content: "\f085";
+}
+.icon-code-fork:before {
+    content: "\f126";
+}
+.icon-git-square:before {
+    content: "\f1d2";
+}
+.icon-git:before {
+    content: "\f1d3";
+}
+.icon-sliders:before {
+    content: "\f1de";
+}
+.icon-download5:before {
+    content: "\e914";
+}
+.icon-flow-tree:before {
+    content: "\e916";
+}
+.icon-install:before {
+    content: "\e927";
+}
+.icon-infinity:before {
+    content: "\e928";
+}
+.icon-sound-mix:before {
+    content: "\e917";
+}
+.icon-tools2:before {
+    content: "\e918";
+}
+

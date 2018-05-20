@@ -1,0 +1,401 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Room servers for all possibilities.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Hosting Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <!-- Custom Theme files -->
+    <!-- webfonts -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/order_now.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/icomoon.css" type="text/css" media="all">
+    <!-- valid -->
+    <script type="text/javascript">
+        function ValidMail() {
+            var re = /^[\w-\.]+@[\w-]+\.[a-z]{2,4}$/i;
+            var myMail = document.getElementById('e-mail').value;
+            var valid = re.test(myMail);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'E-mail is incorrect!';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+
+        function ValidPhone() {
+            var re = /^[+]+[\d]+[\d\(\)\ -]+[\d]+$/;
+            var myPhone = document.getElementById('phone').value;
+            var valid = re.test(myPhone);
+            if (valid) output = 'CONSULTATION IS FREE';
+            else output = 'Phone number is incorrect, please type full phone number. Example: "+1*****"';
+            document.getElementById('message_form').innerHTML = output;
+            return valid;
+        }
+    </script>
+    <!-- dropdown -->
+    <script src="js/jquery.easydropdown.js"></script>
+    <link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- end-smoth-scrolling -->
+</head><aside id="shared_standart" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <img class="img_order" src="images/logo.png">
+            <p class="h1_order">Open your door to the world of hosting!</p>
+            <br>
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "Shared $1.95">
+        </form>
+    </div>
+</aside>
+<aside id="shared_dedic" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <img class="img_order" src="images/logo.png">
+            <p class="h1_order">Open your door to the world of hosting!</p>
+            <br>
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "Shared $3.95">
+        </form>
+    </div>
+</aside>
+<aside id="shared_managet" class="modal1">
+    <div>
+        <a href="#close" class="icon_close" title="Close">x</a>
+        <form name="order_now_form" onsubmit="return (ValidMail()&&ValidPhone())" class="contact_form" action="send.html" method="post">
+            <img class="img_order" src="images/logo.png">
+            <p class="h1_order">Open your door to the world of hosting!</p>
+            <br>
+            <h2 class="pad_bot1">Enter your details!</h2>
+            <br>
+            <input class = "input_buy" name="fio" type="text" value = "" placeholder="Your Name" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Your Name';}" required="">
+            <span class="form_hint">Pleace enter you Name</span>
+            <br><br>
+            <input class = "input_buy" name="email" id="e-mail" type="email" value = "" placeholder="Email" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Email';}" required="">
+            <span class="form_hint">Proper format "name@something.com"</span>
+            <br><br>
+            <input class = "input_buy" name="phone" id="phone" type="text" value = "" placeholder="Phone" onfocus="this.placeholder = ''; this.value = ''" onblur="if (this.placeholder == '') {this.placeholder = 'Phone';}" required="">
+            <span class="form_hint">Proper format "+1 xxx-xxxx"</span>
+            <br><br>
+            <button class="submit" type="submit">Submit Form</button>
+            <br>
+            <p id="message_form">CONSULTATION IS FREE</p>
+            <input name ="question" class = "question" name="" type="text" value = "Shared 5.95$">
+        </form>
+    </div>
+</aside>
+<!-- Header Starts Here -->
+<div class="banner" >
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img class="logo-img" src="images/logo.png" alt=""></a>
+            </div>
+
+            <span class="menu"> Menu</span>
+
+            <div class="banner-top">
+                <ul class="nav banner-nav">										<li><a href="index.html">Home</a></li>
+                    <li class="dropdown1"><a class="down-scroll active" href="">Hosting</a>
+                        <ul class="dropdown2">
+                            <li><a href="sharedhosting.html">Shared hosting</a></li>
+                            <li><a href="vps.html">Virtual Private Server</a></li>
+                            <li><a href="dedicated-servers.html">Dedicated servers</a></li>
+                        </ul>										</li>
+                    <li class="dropdown1"><a class="down-scroll" href="">Information</a>
+                        <ul class="dropdown2">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="support.html">Support</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="pp.html">Private Policy</a></li>
+                            <li><a href="tofu.html">Terms of Use</a></li>
+                        </ul>										</li>
+                    <li class="dropdown1"><a class="down-scroll" href="blog.html">News</a></li>
+                    <li class="dropdown1"><a href="contact.html">Contact</a></li>
+                </ul>
+                <script>
+                    $("span.menu").click(function(){
+                        $(" ul.nav").slideToggle("slow" , function(){
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- page heading -->
+    <div id="breadcrumb_wrapper">
+        <div class="container">
+
+            <h3>Shared Hosting</h3>
+            <h6>Type of hosting where many web sites are located on the same web server. This is the most economical type of hosting is suitable for small projects.</h6>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"> </div>
+<!-- Header Ends Here -->
+<div class="container">
+    <div class="shared-hosting">
+        <h3 class="header-c">Shared Hosting</h3>
+        <figure class="float-right"><img src="images/570x330.jpg"></figure>
+        <p>There are two basic methods to implement access to web sites:</p>
+        <ul class="list-check">
+            <li>named (shared IP hosting), when all websites use the same public IP address. According to the HTTP/1.1 web browser in the request to the web server specifies the domain name of the website in the Host field of the header of the current request, and the web server uses it for the correct execution of the query and copies this name into the cell [HTTP_HOST] superglobal array $_SERVER.</li>
+
+            <li>by IP address (dedicated IP hosting) at which each web site has its own IP address and the web server has multiple physical or virtual network interfaces.</li>
+        </ul>
+        <p>In this type of hosting is limited</p>
+        <ul class="list-check">
+            <li>Disk space</li>
+            <li>The number of monthly traffic.</li>
+            <li>The number of websites you can host hosting as a service.</li>
+        </ul>
+    </div>
+</div>
+<div class="about-quote">
+    <div class="col-md-6 abt-quote">
+        <h5>Success is a science; if you have the conditions, you get the result.</h5>
+        <span>Oscar Wilde</span>
+    </div>
+</div>
+<div class="container">
+
+    <div class="row PageHead">
+        <div class="col-md-12">
+            <h1>Compare Plans</h1>
+            <h3>The table induced the main characteristics of the possible plans of the service.</h3>
+        </div>
+    </div>
+    <div class="row ComparePlans">
+        <div class="col-md-3 CompareList hidden-sm hidden-xs">
+            <div class="planHead1"></div>
+            <div class="planFeatures">
+                <ul>
+                    <li>Setup Fee</li>
+                    <li> Multi Domain </li>
+                    <li> Storage Space</li>
+                    <li>Monthly Bandwidth</li>
+                    <li> MySQL Databases</li>
+                    <li>Sub-domains</li>
+                    <li>Email Accounts</li>
+                    <li> Shared 128bit SSL</li>
+                    <li>Control panel</li>
+                    <li>24/7 Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 pricing1">
+            <div class="planHead2">
+                <h3>STANDARD $1.95 </h3>
+            </div>
+            <div class="planFeatures">
+                <ul class="visible-sm visible-xs">
+                    <li>Setup Fee : NA</li>
+                    <li> Multi Domain : Up to 1 </li>
+                    <li> Storage Space 1 GB</li>
+                    <li>Monthly Bandwidth 1 GB</li>
+                    <li>MySQL Databases : 1</li>
+                    <li>Sub-domains : 1</li>
+                    <li>Email Accounts : 1</li>
+                    <li>Shared 128bit SSL : No</li>
+                    <li>Control panel : Yes</li>
+                    <li>24/7 Support : No</li>
+                </ul>
+                <ul class="hidden-sm hidden-xs">
+                    <li>NA</li>
+                    <li> Up to 1 </li>
+                    <li> 1 GB</li>
+                    <li> 1 GB</li>
+                    <li> 1 </li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li><img src="images/cross.png" alt="cross"> </li>
+                    <li> <img src="images/tick.png" alt="tick"></li>
+                    <li><img src="images/cross.png" alt="cross"> </li>
+                </ul>
+            </div>
+            <p> <a href="#shared_standart" role="button" class="btn btn-success btn-lg">Sign Up </a> </p>
+        </div>
+        <div class="col-sm-6 col-md-3 pricing2">
+            <div class="planHead3">
+                <h3>DEDICATED $3.95</h3>
+            </div>
+            <div class="planFeatures">
+                <ul class="visible-sm visible-xs">
+                    <li>Setup Fee : NA</li>
+                    <li> Multi Domain : Up to 2 </li>
+                    <li> Storage Space 3 GB</li>
+                    <li>Monthly Bandwidth 5 GB</li>
+                    <li> MySQL Databases : 3</li>
+                    <li>Sub-domains : 3</li>
+                    <li>Email Accounts : 5</li>
+                    <li> Shared 128bit SSL : No</li>
+                    <li>Control panel : Yes</li>
+                    <li>24/7 Support : Yes</li>
+                </ul>
+                <ul class="hidden-sm hidden-xs">
+                    <li>NA</li>
+                    <li> Up to 2 </li>
+                    <li> 3 GB</li>
+                    <li>5 GB</li>
+                    <li>3</li>
+                    <li>3</li>
+                    <li>5</li>
+                    <li><img src="images/cross.png" alt="cross"> </li>
+                    <li> <img src="images/tick.png" alt="tick"></li>
+                    <li><img src="images/tick.png" alt="tick"> </li>
+                </ul>
+            </div>
+            <p> <a href="#shared_dedic" role="button" class="btn btn-danger btn-lg">Sign Up </a> </p>
+        </div>
+        <div class="col-sm-6 col-md-3 col-sm-offset-3 col-md-offset-0 pricing1">
+            <div class="planHead2">
+                <h3>MANAGED $5.95</h3>
+            </div>
+            <div class="planFeatures">
+                <ul class="visible-sm visible-xs">
+                    <li>Setup Fee : NA</li>
+                    <li> Multi Domain : Up to 5 </li>
+                    <li> Storage Space 15 GB</li>
+                    <li>Monthly Bandwidth 50 GB</li>
+                    <li> MySQL Databases : 5</li>
+                    <li>Sub-domains : 10</li>
+                    <li>Email Accounts : 25</li>
+                    <li> Shared 128bit SSL : Yes</li>
+                    <li>Control panel : Yes</li>
+                    <li>24/7 Support : Yes</li>
+                </ul>
+                <ul class="hidden-sm hidden-xs">
+                    <li>NA</li>
+                    <li> Up to 5 </li>
+                    <li> 15 GB</li>
+                    <li>50 GB</li>
+                    <li> 5</li>
+                    <li>10</li>
+                    <li>25</li>
+                    <li><img src="images/tick.png" alt="tick"> </li>
+                    <li> <img src="images/tick.png" alt="tick"></li>
+                    <li><img src="images/tick.png" alt="tick"> </li>
+                </ul>
+            </div>
+            <p> <a href="#shared_managet" role="button" class="btn btn-success btn-lg">Sign Up </a> </p>
+        </div>
+    </div>
+</div>
+<!-- #Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="title">Latest <a href="blog.html">News</a></span>
+                <p>Approval Of The New Head Of Technical Support. Now that office will be managed by Michael Bennington. By nature very kind, but harsh and demanding to subordinates.<span class="tweetTime">12.04.2016</span></p>
+                <p>The equipment for hosting. How to choose the right equipment for hosting? What equipment is best?<span class="tweetTime">02.04.2016</span></p>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerMenu">
+                    <li class="title">The documents for review.</li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="pp.html">Private Policy</a></li>
+                    <li><a href="tofu.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerMenu">
+                    <li class="title">Services</li>
+                    <li><a href="#">Virtual Private Servers</a></li>
+                    <li><a href="#">Dedicated Servers</a></li>
+                    <li><a href="#">cloud vps</a></li>
+                    <li><a href="#">Server Management</a></li>
+                    <li><a href="#">Script Installation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-4">
+                <ul class="footerAddress">
+                    <li class="title">Contact Us</li>
+                    <li><strong>Address:</li>
+                    <li>1 Centre St,New York, NY 10007,USA</li>
+                    <li><strong>Phone:</strong></li>
+                    <li>+1 212-966-3866</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="copyrights">
+        <div class="container">
+            <p>Copyrights &copy; 2016 Hosting-Room.com All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+        </div>
+    </div>
+</footer>
+<!-- /#Footer -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+           containerID: 'toTop', // fading element id
+           containerHoverID: 'toTopHover', // fading element hover id
+           scrollSpeed: 1200,
+           easingType: 'linear'
+        };
+        */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
