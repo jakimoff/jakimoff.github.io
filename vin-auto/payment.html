@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Main Page</title>
+</head>
+
+<body class="inner">
+    <div class="top-wrapper">
+        <div class="container">
+            <header class="top">
+                <div id="logo"><img alt="Logo" src="img/logo.png"></div>
+                <div id="top-menu" class="menu">
+                    <nav class="header">
+                        <ul class="nav">
+                            <li class="nav-item"><a href="#" class="nav-link" id="home">Vin check</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Example report</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Partnership</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Price</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="profile-block">
+                    <div class="username"><a href="#">info@vin.report</a></div>
+                    <div>
+                        <div class="lang-flag"><a href="#"></a></div>
+                        <div class="logout"><a href="#"></a></div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="payment-wraper">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <span>Главная</span><span class="breadcrumbs-divider">-</span><span><a href="#">Payment</a></span>
+                </div>
+                <div id="payment">
+                    <h1 class="center-upper">Payment</h1>
+                    <div class="payment-container">
+                        <div class="payment-top">
+                            <div class="currency-left-text">
+                                <div class="currency-amount-title">Количество покупаемых кредитов</div>
+                                <div class="currency-value">(1 кредит = 1 USD)</div>
+                            </div>
+                            <div class="payment-currency-input">
+                                <input type="text" value="100">
+                            </div>
+                        </div>
+                        <div class="payment-middle">
+                            <div class="payment-header-titles inline-center-flex">
+                                <div class="flex-20 inline-center-flex">Способ оплаты</div>
+                                <div class="flex-40 inline-center-flex">Описание</div>
+                                <div class="flex-10 inline-center-flex center-text">Коммисия платежной системы</div>
+                                <div class="flex-10 inline-center-flex">К оплате</div>
+                                <div class="flex-20 center-text"></div>
+                            </div>
+                            <div class="payment-item inline-center-flex">
+                                <div class="flex-20 inline-center-flex payment-currency">
+                                    <div class="webmoney"></div>
+                                    <select name="currency" id="currency" class="small">
+                                        <option value="wmz">WMZ</option>
+                                        <option value="wmr">WMR</option>
+                                        <option value="wme">WME</option>
+                                    </select>
+                                </div>
+                                <div class="flex-40 collumn-center-flex payment-description">
+                                    <div class="payment-description-title">WebMoney</div>
+                                    <div class="payment-description-bottom">(WMZ, WMR, WMU, WME, WMB)</div>
+                                </div>
+                                <div class="flex-10 inline-center-flex payment-fee">1<span>%</span></div>
+                                <div class="flex-10 inline-center-flex to-payment">101<span>WMZ</span></div>
+                                <div class="flex-20 inline-center-flex"><input class="lite" type="submit" value="Оплатить"></div>
+                            </div>
+                            <div class="payment-item inline-center-flex">
+                                <div class="flex-20 inline-center-flex payment-currency">
+                                    <div class="plati-ru"></div>
+                                </div>
+                                <div class="flex-40 collumn-center-flex payment-description">
+                                    <div class="payment-description-title">Plati.ru
+                                    </div>
+                                    <div class="payment-description-bottom">(VISA, MasterCard, Quwi)</div>
+                                </div>
+                                <div class="flex-10 inline-center-flex payment-fee">1.16<span>%</span></div>
+                                <div class="flex-10 inline-center-flex to-payment">101.16<span>USD</span></div>
+                                <div class="flex-20 inline-center-flex"><input class="lite" type="submit" value="Оплатить"></div>
+                            </div>
+                            <div class="payment-item inline-center-flex">
+                                <div class="flex-20 inline-center-flex payment-currency">
+                                    <div class="yandex-money"></div>
+                                </div>
+                                <div class="flex-40 collumn-center-flex payment-description">
+                                    <div class="payment-description-title">YandexMoney
+                                    </div>
+                                    <div class="payment-description-bottom">(картой VISA/MasterCard или с Яндекс кошелька)</div>
+                                </div>
+                                <div class="flex-10 inline-center-flex payment-fee">5.7<span>%</span></div>
+                                <div class="flex-10 inline-center-flex to-payment">6329.32<span>WMR</span></div>
+                                <div class="flex-20 inline-center-flex"><input class="lite" type="submit" value="Оплатить"></div>
+                            </div>
+                            <div class="payment-item inline-center-flex">
+                                <div class="flex-20 inline-center-flex payment-currency">
+                                    <div class="privat-bank"></div>
+                                </div>
+                                <div class="flex-40 collumn-center-flex payment-description">
+                                    <div class="payment-description-title">Privat24</div>
+                                    <div class="payment-description-bottom">(с помощью сервиса Privat24)</div>
+                                </div>
+                                <div class="flex-10 inline-center-flex payment-fee">3<span>%</span></div>
+                                <div class="flex-10 inline-center-flex to-payment">2884.00<span>UAH</span></div>
+                                <div class="flex-20 inline-center-flex"><input class="lite" type="submit" value="Оплатить"></div>
+                            </div>
+                            <div class="payment-item inline-center-flex">
+                                <div class="flex-20 inline-center-flex payment-currency">
+                                    <div class="interkassa"></div>
+                                </div>
+                                <div class="flex-40 collumn-center-flex payment-description">
+                                    <div class="payment-description-title">Interkassa</div>
+                                    <div class="payment-description-bottom">(VISA, MasterCard, Liqupay, Beeline, Megafon, MTS, OK Pay, Payeer)</div>
+                                </div>
+                                <div class="flex-10 inline-center-flex payment-fee">4<span>%</span></div>
+                                <div class="flex-10 inline-center-flex to-payment">104.00<span>USD</span></div>
+                                <div class="flex-20 inline-center-flex"><input class="lite" type="submit" value="Оплатить"></div>
+                            </div>
+                        </div>
+                        <div class="payment-bottom">
+                            <div class="payment-bottom-inner">
+                                <div>
+                                    <img src="img/blue_rus.png" alt="Сайт прошел модерацию в каталоге Мегасток"></div>
+                                <div class="payment-bottom-inner-descr">Сайт прошел модерацию в каталоге <a href="#">Мегасток</a></div>
+                            </div>
+                            <div class="payment-bottom-inner">
+                                <div><img src="img/wm-attestat.png" alt="Наш Аттестат Продавца Webmoney"></div>
+                                <div class="payment-bottom-inner-descr"><a href="#">Наш Аттестат Продавца Webmoney</a></div>
+                            </div>
+                        </div>
+                        <div class="payment-bottom-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod biben dum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra. Lorem ips um dolor sit amet, adipiscing elit. Aenean euismod bibendum laor. Proin gravida dolor sit amet lacus accumsan et viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverr adipiscing elit. Lorem ips um dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laor. Proin gravida dolor sit amet lacus accumsan et viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod biben dum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer-wrapper">
+        <footer>
+            <div class="bottom-nav-wraper">
+                <div class="container">
+                    <nav id="bottom-menu">
+                        <ul class="footer-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">Vin check</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Example report</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Partnership</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Price</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="footer-contacts">
+                <div class="container">
+                    <div class="social-networks">
+                        <div class="social-vk"><a href="#"></a></div>
+                        <div class="social-fb"><a href="#"></a></div>
+                        <div class="social-twiter"><a href="#"></a></div>
+                        <div class="social-g"><a href="#"></a></div>
+                        <div class="social-skype"><a href="#"></a></div>
+                    </div>
+                    <div class="payment-systems">
+                        <div class="pay-master-card"><a href="#"></a></div>
+                        <div class="pay-visa"><a href="#"></a></div>
+                        <div class="pay-p-pal"><a href="#"></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
