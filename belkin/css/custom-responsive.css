@@ -1,0 +1,473 @@
+@media only screen and (max-width: 1900px) {
+	.PageMainwidth {
+    max-width:1400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+    
+    .HeaderContainer .TopNavigation ul li{
+        font-size: 20px;
+    }
+    
+    .HeaderContainer .logo-cont img{
+        width: 400px;
+    }
+    .HeaderContainer .HeaderBottomText p{
+        font-size: 70px;
+    }
+    .HeaderContainer, .HeaderContainer .BannerimageContainer .PageMainwidth{
+        height: 440px;
+    }
+    .HeaderContainer .Bannerimage{
+        width: 700px;
+    }
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        max-width: 850px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext img{
+        max-width: 100%;
+    }
+    .contactinfo_wth_form .form_part input{
+        width: 160px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+            font-size: 50px;
+    }
+    .HeaderContainer .HeaderBottomText a{
+        font-size: 28px;
+    }
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 270px;
+    }
+    .HeaderContainer.fixed-theme .Logo-panel{
+        height: 120px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText{
+        top: -90px;
+    }
+    .Topbtn, .redinfo_part {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .ProfileDetailsPage{
+        max-width: 1200px;
+    }
+    .ProfileDetailsText{
+        font-size: 18px;
+    }
+    .SocialMedia{
+/*        height: 165px;*/
+    }
+    .SocialMedia a{
+        width: 30px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .SocialMedia a img{
+         width: 30px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box {
+        height: 335px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext {
+        height: 273px;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    	.PageMainwidth {
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        max-width: 640px;
+    }
+    
+    .HeaderContainer .HeaderBottomText p{
+        font-size: 40px;
+    }
+    .HeaderContainer .HeaderBottomText a{
+        font-size: 18px;
+        border-width: 2px;
+    }
+    
+    .HeaderContainer .logo-cont img{
+        width: 260px;
+        height: auto;
+    }
+    
+    .HeaderContainer, .HeaderContainer .BannerimageContainer .PageMainwidth{
+        height: 330px;
+    }
+    
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3{
+        font-size: 22px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext{
+        font-size: 15px;
+    }
+    
+    
+    .HeaderContainer .Bannerimage{
+        width: 510px;
+        display: none;
+    }
+    
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 42px;
+    }
+    
+    .HeaderContainer.fixed-theme .HeaderBottomText{
+        top: -80px;
+    }
+    .HeaderContainer .HeaderBottomText a{
+        margin-top: 7px;
+    }
+    .contact_info a{
+            font-size: 20px;
+    }
+    .contact_info{
+         font-size: 20px;
+    }
+    .contactinfo_wth_form .form_part button{
+        font-size: 20px;
+    }
+    .redinfo_part{
+        width: 220px;
+    }
+    .contactinfo_wth_form .form_part span.label{
+        font-size: 18px;
+    }
+    
+    .DonationContainerRight h3{
+        font-size: 26px;
+    }
+    .DonationContainerRight h4{
+        font-size: 20px;
+    }
+    .DonationContainerLeftCont h3{
+        font-size: 32px;
+    }
+    .Donationbtns-price{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1260px) {
+        .PageMainwidth {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .Topbtn{
+        font-size: 12px;
+        width: 160px;
+        border-radius: 0 0 10px 10px;
+    }
+    .Topbtn, .redinfo_part {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .HeaderContainer .TopNavigation{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .HeaderContainer .TopNavigation ul li{
+        font-size: 15px;
+    }
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        max-width: 500px;
+    }
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 170px;
+    }
+    .HeaderContainer.fixed-theme .Logo-panel{
+        height: 85px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 38px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    top: -65px;
+}
+    .SocialMedia{
+        width: 50px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3 {
+    font-size: 18px;
+}
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext_image{
+        height: auto;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .bottom-btn{
+        width: 220px;
+        margin-left: -110px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p{
+        font-size: 14px;
+    }
+    .contactinfo_wth_form .form_part input{
+        width: 150px;
+    }
+    .redinfo_part{
+        display: none;
+    }
+    .contactinfo_wth_form .form_part span.label{
+        font-size: 16px;
+    }
+    .contactinfo_wth_form .form_part input{
+        height: 40px;
+    }
+    .FooterContainer{
+            padding-top: 15px;
+    padding-bottom: 15px;
+    height: 75px;
+    }
+    .contactinfo_wth_form .form_part button {
+    font-size: 16px;
+        height: 40px;
+        margin-top: 5px;
+}
+    .ProfileDetailsPage{
+        max-width: 860px;
+        padding-top: 0;
+    }
+    .ProfileDetailsText{
+        font-size: 16px;
+    }
+    .ProfileDetailsImage{
+        width: 180px;
+        margin-top: 0;
+    }
+    .ProfileDetailsText{
+        padding-right: 210px;
+    }
+    .DonationContainerLeftCont h3{
+        font-size: 24px;
+    }
+    .Donationbtns{
+        padding-top: 20px;
+    }
+    .Donationbtns-price{
+        font-size: 18px;
+    }
+    .radio_btn_container{
+        font-size: 18px;
+    }
+    .DonationContainerLeftCont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .HeaderContainer.fixed-theme .HeaderBottomText{
+        width: 65%;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box {
+        height: auto;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 980px) {
+     .PageMainwidth {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .MobileNav{
+    display: block;
+}
+    
+    .d-nav{
+        display: none;
+    }
+    
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        width: 340px;
+    }
+    
+    .HeaderContainer .HeaderBottomText p {
+    font-size: 32px;
+}
+    .HeaderContainer .logo-cont img {
+    width: 150px;
+    height: auto;
+}
+    .HeaderContainer, .HeaderContainer .BannerimageContainer .PageMainwidth {
+    height: 250px;
+}
+    
+    .HeaderContainer .Bannerimage {
+    width: 390px;
+}
+    
+    .IndexBodyContainer .page_row .page_col_4{
+        width: 100%;
+        height: auto;
+    }
+    
+    .HeaderContainer .TopNavigation{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
+    
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 24px;
+    }
+    .HeaderContainer .HeaderBottomText a {
+    margin-top: 0;
+            font-size: 12px;
+}
+    
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 150px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    top: -55px;
+}
+    .IndexBodyContainer .page_row .page_col_4_box.page_col_4_videobox img{
+        width: 100%;
+    }
+    .FooterContainer{
+        height: auto;
+        position: relative;
+    }
+    
+    .contact_info, .form_part{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .contact_info {
+        padding-bottom: 0;
+        left: 50%;
+        position: absolute;
+        bottom: -25px;
+        transform: translate(-50%,-50%);
+    }
+    
+    .IndexBodyContainer{
+        padding-bottom: 30px;
+    }
+    .DonationContainerLeft, .DonationContainerRight{
+        width: 100%;
+        float: none;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext img{
+        width: 100%;
+    }
+    .Topbtn {
+        transform: scale(0.9);
+        top: -4px;
+        right: 60%;
+    }
+    .FooterContainer {
+        padding-bottom: 30px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext {
+        height: auto;
+    }
+}
+
+@media handheld, only screen and (max-width: 768px) {
+    .BannerimageContainer {
+        transition: none!important;
+        background: url(../images/banner-pic.png) no-repeat 87% 44%!important;
+        background-size: contain !important;
+    }
+    .SocialMedia{
+        top: 100px;
+    }
+}
+
+@media handheld, only screen and (max-width: 660px) {
+    .PageMainwidth {
+    max-width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .HeaderContainer .BannerimageContainer{
+        display: none;
+    }
+    .HeaderContainer .HeaderBottomText p{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        width: 300px;
+    }
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 70px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 14px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    width: 100%;
+}
+    .HeaderContainer.fixed-theme .HeaderBottomText{
+        top: -38px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText a{
+        border-width: 1px;
+        border-radius: 4px;
+    }
+    .SocialMedia a img{
+        width: 18px;
+    }
+    .SocialMedia {
+    width: 30px;
+        border-radius: 0 10px 10px 00px;
+}
+    .contactinfo_wth_form .form_part input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .ProfileDetailsPage{
+        
+    }
+    .ProfileDetailsText{
+        padding: 0;
+    }
+    .ProfileDetailsImage{
+        width: 100%;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
+    
+    .radio_btn_container {
+    font-size: 18px;
+        width: 48%;
+}
+    .Donation_checkbox{
+          font-size: 16px;
+        text-align: right;
+    }
+    .Topbtn {
+        transform: scale(0.9);
+        top: -4px;
+        right: 0;
+    }
+    #video {
+        float: right;
+    }
+}
+
+@media handheld, only screen and (max-width: 554px) {
+    .SocialMedia{
+        top: 230px;
+    }
+
+}

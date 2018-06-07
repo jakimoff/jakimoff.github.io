@@ -1,0 +1,1016 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Conv_Heebo-Regular';
+	font-size: 18px;
+	color: #000000;
+  width: 100%;
+    direction: rtl;
+}
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+a {
+	outline-style: none;
+	text-decoration: none;
+	color: #011230;
+}
+.clear {
+	clear: both;
+}
+.align-left {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.align-right {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.align-center {
+	text-align: center;
+}
+hr {
+	border: none;
+	clear: both;
+	margin: 0;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	background: #ccc;
+	border-width: thin;
+}
+
+/* Base Type Styles Using Modular Scale ---------------------- */
+
+::selection {
+	color: #FFF;
+	background-color: #011230;
+}
+::-moz-selection {
+color:#FFF;
+background-color:#011230;
+}
+
+::-webkit-scrollbar {
+ width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+ background:#ccc;
+}
+ 
+::-webkit-scrollbar-thumb {
+ background:#011230;
+ border-radius:10px;
+}
+
+/*--------------website fonts------------------------*/
+
+@font-face {
+	font-family: 'Conv_Heebo-Light';
+	src: url('fonts/Heebo-Light.eot');
+	src: local('☺'), url('fonts/Heebo-Light.woff') format('woff'), url('fonts/Heebo-Light.ttf') format('truetype'), url('fonts/Heebo-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Heebo-Regular';
+	src: url('fonts/Heebo-Regular.eot');
+	src: local('☺'), url('fonts/Heebo-Regular.woff') format('woff'), url('fonts/Heebo-Regular.ttf') format('truetype'), url('fonts/Heebo-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_Heebo-Medium';
+	src: url('fonts/Heebo-Medium.eot');
+	src: local('☺'), url('fonts/Heebo-Medium.woff') format('woff'), url('fonts/Heebo-Medium.ttf') format('truetype'), url('fonts/Heebo-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Heebo-Bold';
+	src: url('fonts/Heebo-Bold.eot');
+	src: local('☺'), url('fonts/Heebo-Bold.woff') format('woff'), url('fonts/Heebo-Bold.ttf') format('truetype'), url('fonts/Heebo-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Heebo-Black';
+	src: url('fonts/Heebo-Black.eot');
+	src: local('☺'), url('fonts/Heebo-Black.woff') format('woff'), url('fonts/Heebo-Black.ttf') format('truetype'), url('fonts/Heebo-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MeodedPashut_OEBold-Normal';
+	src: url('fonts/MeodedPashut_OEBold-Normal.eot');
+	src: local('☺'), url('fonts/MeodedPashut_OEBold-Normal.woff') format('woff'), url('fonts/MeodedPashut_OEBold-Normal.ttf') format('truetype'), url('fonts/MeodedPashut_OEBold-Normal.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*--------------------main css-------------------------------*/
+.PageContainer{
+	overflow:hidden;
+	width:100%;
+}
+
+.PageMainwidth{
+  position: relative;
+	max-width:1600px;
+	margin-left:auto;
+	margin-right:auto;	
+	width:100%;
+}
+
+.page_row{
+    margin: 0;
+    padding: 0;
+}
+.page_row:before{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.page_row:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+
+.HeaderContainer{
+    background: url(../images/header-bg.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+     transition: all 0.25s ease-in-out;
+}
+
+.HeaderContainer  .TopNavigation{
+    max-width: 1000px;
+    margin-right: auto;
+   padding-top: 27.5px;
+    padding-bottom: 27.5px;
+    position: relative;
+    z-index: 2;
+}
+.HeaderContainer  .TopNavigation ul{
+ float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.HeaderContainer  .TopNavigation ul li{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    font-family: 'Conv_Heebo-Black';
+    font-size: 33px;
+    color: #052453;
+}
+.HeaderContainer  .TopNavigation ul li a{
+     color: #052453;
+}
+.HeaderContainer  .TopNavigation ul li a:hover{
+     color: #FFFFFF;
+}
+.HeaderContainer  .TopNavigation ul li:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '|';
+}
+
+.HeaderContainer  .TopNavigation ul li:first-child:after{
+    display: none;
+}
+
+.HeaderContainer  .TopNavigation ul li.active a{
+     color: #FFFFFF;
+}
+
+.HeaderContainer .Logo-panel{
+    background-color: #052453;
+    padding-top: 18px;
+    padding-bottom: 18px;
+     transition: all 0.25s ease-in-out;
+}
+
+
+.HeaderContainer .logo-cont{
+   max-width: 1000px;
+    margin-right: auto;
+       position: relative;
+    z-index: 2;
+    transition: all 0.25s ease-in-out;
+}
+
+.HeaderContainer .logo-cont img{
+    max-width: 100%;
+   height: auto;
+    transition: all 0.25s ease-in-out;
+}
+
+
+.HeaderBottomPanel{
+       padding-top: 20px;
+     transition: all 0.25s ease-in-out;
+}
+
+.HeaderContainer .HeaderBottomText{
+    max-width: 1000px;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+     transition: all 0.25s ease-in-out;
+}
+
+
+.HeaderContainer .HeaderBottomText p{
+    padding: 0;
+    margin: 0;
+       font-family: 'Conv_MeodedPashut_OEBold-Normal';
+    font-size: 80px;
+    color: #FFFFFF;
+     transition: all 0.25s ease-in-out;
+}
+.HeaderContainer .HeaderBottomText a{
+    margin-top: 0;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #e32528;
+    font-size:38px;
+    color: #FFF;
+    border: 4px #FFF solid;
+    border-radius: 10px;
+     transition: all 0.25s ease-in-out;
+}
+
+.HeaderContainer .HeaderBottomText a:after{
+    content: '>';
+    margin-right: 7px;
+}
+.HeaderContainer .HeaderBottomText a:hover{
+    background-color: #052453;
+}
+.HeaderContainer .BannerimageContainer{
+    position: absolute;
+     top: 0;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.25s ease-in-out;
+}
+.HeaderContainer .Bannerimage{
+    position: absolute;
+    background-image: url(../images/banner-pic.png);
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 0%;
+    width: 760px;
+      transition: all 0.25s ease-in-out;
+}
+.HeaderContainer .BannerimageContainer .PageMainwidth{
+    position: relative;
+   height: 500px;
+     transition: all 0.25s ease-in-out;
+}
+.fixed-theme{
+     transition: 0.25s;
+    -webkit-transition:  0.25s;
+}
+.HeaderContainer.fixed-theme{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: auto !important;
+     transition: all 0.25s ease-in-out;
+}
+
+.HeaderContainer.fixed-theme .Bannerimage{
+    opacity: 0;
+    transform: scale(0,0);
+      transition: all 0.25s ease-in-out;
+}
+.HeaderContainer.fixed-theme .Logo-panel{
+    height: 180px;
+     transition: all 0.25s ease-in-out;
+}
+.HeaderContainer.fixed-theme .logo-cont{
+    float: right;
+    height: auto;
+       transition: all 0.25s ease-in-out;
+}
+.HeaderContainer.fixed-theme .logo-cont img{
+    width: 460px;
+       transition: all 0.25s ease-in-out;
+}
+.HeaderContainer.fixed-theme .BannerimageContainer .PageMainwidth{
+    height: auto!important;
+}
+.HeaderContainer.fixed-theme   .HeaderBottomText{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    width: 1000px;
+}
+
+.HeaderContainer.fixed-theme  .HeaderBottomText p{
+    font-size: 60px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.HeaderContainer.fixed-theme .HeaderBottomText a{
+    float: left;
+      transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+.HeaderContainer.fixed-theme .HeaderBottomPanel{
+    padding-top: 0;
+}
+
+
+
+.HeaderBottomPanel.fixed-theme .HeaderBottomPanel{
+    padding-top: 0;
+}
+
+.HeaderContainer .PageMainwidth{
+    position: relative;
+}
+
+.IndexBodyContainer{
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+
+.IndexBodyContainer .page_row{
+	  margin-left: -1.5%;
+      margin-right: -1.5%;
+}
+
+.IndexBodyContainer .page_row .page_col_4{
+    width: 30%;
+    margin-left: 1.5%;
+      margin-right: 1.5%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+.IndexBodyContainer .page_row .page_col_4_box{
+    border: 2px #052453 solid;
+    position: relative;
+    padding-bottom: 50px;
+    border-radius:0 0 70px 70px;
+    position: relative;
+    height: 320px;
+  overflow: hidden;
+}
+
+.IndexBodyContainer .page_row .page_col_4_box .bottom-btn{
+    width: 320px;
+    border-top: 2px #052453 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -160px;
+}
+
+.IndexBodyContainer .page_row .page_col_4_box .bottom-btn a{
+    font-size: 20px;
+    font-family: 'Conv_Heebo-Black';
+    color: #052453;
+}
+
+.IndexBodyContainer .page_row .page_col_4_box .bottom-btn a:after{
+    content: '>';
+    margin-right: 10px;
+}
+
+.IndexBodyContainer .page_row .page_col_4_box .bottom-btn a:hover{
+    color: #333;
+}
+
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header{
+    background-color: #052453;
+    padding:10px 10px ;
+}
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     font-size: 26px;
+   font-family: 'Conv_Heebo-Medium';
+    color: #FFF;
+}
+
+
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 40%;
+  object-position: 50% 40%;
+}
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext{
+    height: 253px;
+    padding: 10px 20px 0 20px;
+}
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext_image{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.IndexBodyContainer .page_row .page_col_4_box img{
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 40%;
+  object-position: 50% 40%;
+}
+.IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p{
+    margin-top: 14px;
+    line-height: 18px;
+  margin: 10px 0;
+}
+.IndexBodyContainer .page_row .page_col_4_box.page_col_4_videobox{
+    background-color: #d4d4d4;
+    border: 0;
+    border-radius: 0;
+}
+
+/*
+.IndexBodyContainer .page_row .page_col_4_box:nth-child(3){
+    background-color: #d4d4d4;
+    border: 0;
+    border-radius: 0;
+}
+*/
+
+.FooterContainer{
+    background-color: #052453;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100px ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
+}
+
+.contactinfo_wth_form{
+	float:left;
+}
+.contact_info{
+	font-family: 'Conv_Heebo-Regular';
+	font-size:30px;
+	color:#fff;
+	float:left;
+    margin-top: 12px;
+}
+.contact_info a{
+	font-family: 'Conv_Heebo-Medium';
+	font-size:30px;
+	color:#fff;
+	margin-right:10px;
+}
+
+.form_part{
+	float:right;
+}
+.redinfo_part{
+  border: none;
+  cursor: pointer;
+  outline: none;
+	float:right;
+  position: absolute;
+  right: -70px;
+  top: -25px;
+  background-color: #e32528;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  width: 240px;
+    text-align: center;
+    font-family: 'Conv_Heebo-Bold';
+    color: #FFF;
+    border-radius: 0 0 25px 25px;
+}
+
+.redinfo_part a{
+     color: #FFF;
+}
+.contact_info {
+    margin-right: 30px;
+}
+
+
+.contactinfo_wth_form .form_part input{
+    height: 46px;
+    color: #052453;
+    border: 0;
+    width: 200px;
+    margin: 0 5px;
+    padding: 8px 15px;
+}
+
+.contactinfo_wth_form .form_part button{
+    font-family: 'Conv_Heebo-Medium';
+    font-size: 30px;
+    color: #FFFFFF;
+     height: 46px;
+    padding: 8px 15px;
+    border: 2px #FFF solid;
+    background-color: transparent;
+    vertical-align: top;
+    cursor:  pointer;
+    border-radius: 12px;
+}
+
+.contactinfo_wth_form .form_part button:hover{
+    background-color: #e32528;
+}
+
+.contactinfo_wth_form .form_part span.label{
+   line-height: normal;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.SocialMedia{
+    position: fixed;
+    left: 0;
+    top: 35%;
+    height: auto;
+    width: 70px;
+    background-color: #052453;
+     text-align: center;
+    z-index: 999;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 0 30px 30px 0;
+}
+.SocialMedia a{
+    width: 40px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  transition: all .3s ease;
+}
+
+.SocialMedia a:hover {
+  transition: all .3s ease;
+  transform: scale(0.8);
+}
+
+
+.SocialMedia a img{
+     width: 40px;
+    height: auto;
+}
+
+
+/*InnerPage*/
+
+.Topbtn{
+    position: absolute;
+    border: none;
+  cursor: pointer;
+  outline: none;
+    background-color: #e32528;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 240px;
+    text-align: center;
+    font-family: 'Conv_Heebo-Bold';
+    color: #FFF;
+    border-radius: 0 0 25px 25px;
+    right: -70px;
+    top: 0;
+    z-index: 99;
+}
+
+.Topbtn a{
+     color: #FFF;
+}
+
+
+.ProfileDetailsPage{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ProfileDetailsText{
+    padding-right: 325px;
+    font-size: 30px;
+}
+
+.page3 .ProfileDetailsText{
+  padding-right: 0;
+}
+
+.ProfileDetailsImage{
+    width: 275px;
+    border: 1px #000 solid;
+    float: right;
+    line-height: 0;
+    margin-top: 50px;
+}
+
+.ProfileDetailsImage img{
+    width: 100%;
+    height: auto;
+}
+
+.ProfileDetailsText h3{
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.ProfileDetailsText h2{
+    font-family: 'Conv_Heebo-Black';
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: #052453;
+}
+.ProfileDetailsText p{
+    margin-top: 0;
+}
+
+.DonationContainer{
+     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.DonationContainer:after, .DonationContainer:before{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.DonationContainerLeft{
+    width: 55%;
+    float: left;
+    background-color: #dbdfe6;
+    border-radius: 15px;
+}
+.DonationContainerLeftCont{
+    padding: 10px 50px;
+}
+
+.DonationContainerLeftCont h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Conv_Heebo-Bold';
+    font-size: 42px;
+    text-align: center;
+}
+
+
+.DonationContainerRight{
+    width: 38%;
+    float: right;
+}
+
+.DonationContainerRight h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Conv_Heebo-Bold';
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.DonationContainerRight h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+   font-family: 'Conv_Heebo-Regular';
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.DonationContainerRight p{
+     font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.Donationbtns{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Donationbtns:after, .Donationbtns:before{
+    display: block;
+    content: '';
+    clear: both;
+}
+/* The container */
+.radio_btn_container {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: left;
+    width: 30%;
+    text-align: left;
+    height: 55px;
+    margin-left: 1%;
+    margin-right: 1%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.Donationbtns-price{
+    position: relative;
+    z-index: 9;
+    font-family: 'Conv_Heebo-Light';
+    font-size: 30px;
+}
+.Donationbtns-price small{
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Hide the browser's default radio button */
+.radio_btn_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio_btn_container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:55px;
+    width: 100%;
+    border-radius: 2%;
+    border: 1px #1a1a1c solid;
+      border-radius: 15px;
+}
+
+/* On mouse-over, add a grey background color */
+.radio_btn_container:hover input ~ .checkmark {
+    background-color: #ccc;
+    
+}
+
+/* When the radio button is checked, add a blue background */
+.radio_btn_container input:checked ~ .checkmark {
+    background-color: #00cafc;
+     border: 1px #00cafc solid;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+/*
+.radio_btn_container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+*/
+
+/* Show the indicator (dot/circle) when checked */
+.radio_btn_container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+/*
+.radio_btn_container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+*/
+
+.Donation-Terms{
+    text-align: center;
+}
+
+
+
+/* The container */
+.Donation_checkbox {
+    display: inline-block;
+    position: relative;
+    padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.Donation_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.Donation_checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFF;
+    border: 1px #333 solid;
+}
+
+/* On mouse-over, add a grey background color */
+.Donation_checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.Donation_checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.Donation_checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.Donation_checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.Donation_checkbox .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.MobileNav{
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #052453;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidenav a {
+    padding: 8px 30px 8px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right:10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-width: 1545px) {
+  .Topbtn {
+    transform: scale(0.9);
+    top: -4px;
+    right: -90px;
+  }
+  .BannerimageContainer {
+    transition: none!important;
+    background: url(../images/banner-pic.png) no-repeat 73% 50%!important;
+    background-size: contain !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .Topbtn, .redinfo_part {
+    transform: scale(0.9);
+    top: -4px;
+    right: 30px;
+  }
+  .redinfo_part {
+    transform: scale(0.9);
+    right: -26px;
+    top: -28px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .BannerimageContainer {
+    transition: none!important;
+    background: url(../images/banner-pic.png) no-repeat 75% 50%!important;
+    background-size: contain !important;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

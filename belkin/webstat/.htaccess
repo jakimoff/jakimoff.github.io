@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/belkin.galactika-it.ru/webstat"
+AuthUserFile /var/www/jakim2/data/etc/91511562.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
