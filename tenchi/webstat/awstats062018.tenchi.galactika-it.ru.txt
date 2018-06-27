@@ -1,0 +1,377 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201806 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tenchi.galactika-it.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2002                
+POS_TIME 2688                
+POS_VISITOR 12877               
+POS_DAY 13982               
+POS_DOMAIN 3424                
+POS_LOGIN 3659                
+POS_ROBOT 3814                
+POS_WORMS 4235                
+POS_EMAILSENDER 4366                
+POS_EMAILRECEIVER 4509                
+POS_SESSION 14395               
+POS_SIDER 14602               
+POS_FILETYPES 4644                
+POS_DOWNLOADS 4927                
+POS_OS 5039                
+POS_BROWSER 5158                
+POS_SCREENSIZE 5514                
+POS_UNKNOWNREFERER 5588                
+POS_UNKNOWNREFERERBROWSER 5827                
+POS_ORIGIN 6061                
+POS_SEREFERRALS 6200                
+POS_PAGEREFS 6366                
+POS_SEARCHWORDS 6514                
+POS_KEYWORDS 9410                
+POS_MISC 2352                
+POS_ERRORS 12203               
+POS_CLUSTER 3515                
+POS_SIDER_404 12318               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180621181332 1036 282752 16023458295699
+FirstTime 20180606170534
+LastTime 20180621181313
+LastUpdate 20180622052202 1036 0 1036 0 0
+TotalVisits 71                  
+TotalUnique 22                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 3 1117205 0 1 336
+1 10 13 4010411 0 0 0
+2 0 0 0 1 2 9589
+3 0 0 0 0 0 0
+4 0 0 0 6 10 1559569
+5 10 13 3112953 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 3 6 30561
+9 88 458 24292304 13 18 36246
+10 196 475 18209020 1 5 18061
+11 169 510 222546399 4 7 1934
+12 166 651 705937093 13 21 17682
+13 180 754 390682140 12 18 20782897
+14 66 290 97905811 22 23 165783808
+15 61 200 10305190 13 21 1592666
+16 59 336 28283682 19 32 1609166
+17 39 212 48442633 4 8 11876
+18 17 104 56610072 4 5 1966
+19 110 596 45679093 17 26 18297
+20 14 50 3243157 3 5 12180
+21 1 10 95624 4 8 31357
+22 0 0 0 2 4 19074
+23 6 33 2760264 1 3 10822
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1193 4708 1014841999
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+yandex 40 4768731 20180621020544 8
+unknown 35 10212 20180621181257 35
+favicon 24 110934 20180621101354 0
+w3c_validator 6 42830 20180620095808 0
+bot[\s_+:,\.\;\/\\-] 2 18609 20180618162700 0
+no_user_agent 1 0 20180621123720 0
+cfnetwork 1 7239 20180615103721 0
+robot 1 1627 20180621121259 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 27 8674404 0 0
+css 198 80264346 0 0
+png 1137 45437123 0 0
+woff 126 4961216 0 0
+woff2 757 55224093 0 0
+json 2 1934 0 0
+html 280 1827117 0 0
+mp4 7 717411794 0 0
+jpg 1828 51220398 0 0
+js 345 49819574 0 0
+webm 1 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 38 0 12548
+/static/video/aykikay.mp4 4 51 717411794
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 2282
+linuxandroid 1243
+winnt 739
+Unknown 27
+linux 385
+winvista 2
+win7 81
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+chrome67.0.3396.87 1810
+safari11.0 205
+chrome37.0.2049.0 2
+chrome67.0.3396.79 526
+safari11.1.1 37
+chrome41.0.2272.118 657
+chrome61.0.3163.128 29
+msie8.0 43
+safari9.0 128
+chrome61.0.3116.0 12
+chrome66.0.3359.181 700
+chrome66.0.3359.158 152
+Unknown 27
+chrome67.0.3396.68 30
+chrome67.0.3396.62 80
+safari 321
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Validator.nu/LV_http://validator.w3.org/services 20180620095808
+Slackbot_1.0_(_https://api.slack.com/robots) 20180621121306
+okhttp/3.6.0 20180621140232
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Validator.nu/LV_http://validator.w3.org/services 20180620095808
+Slackbot_1.0_(_https://api.slack.com/robots) 20180621121306
+okhttp/3.6.0 20180621140232
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 263 287
+From1 0 0
+From2 5 5
+From3 0 0
+From4 925 4467
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+yandex 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.g-szl_7tcmrhbqk9cgvo2d1ssigk-hcbswtf4e1mtesn7ndvxgpznkjnfc78zafe.e0963b913cb992d2121adeb3b835e7b772b723a6%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yfuvnhhyyhjgrfg5yelmiwu%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjz5svhhtk9fawy5n3dibjvjt3e2cxpxnm9qx09angxonxzwehpkeexxtnfisxd2strksc1umeu1btbfqkrrcevlbudndwnsnui0wmo%26b64e%3d2%26sign%3d7bfc9e5106c0bc52b113788da5d3ed14%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbiqguq8guadtkxsmxpz1hwdf9nf63eegaqcikpma4e3vw8ys7u_odzo48uk8lwiozgatxccpkt2kiirwlciusy2vley5xobly_zmbfinr7ngcel1crdh7bf5e1zgaglaw9%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvmxzkm5y4ftl_egpkafurakrkbqghmoo6nhk6aeqmoptuhn8ivgazhfbhrvsxkyplksjzgpnkcbxhihjomyafp%26l10n%3dru%26cts%3d1529415881406%26mc%3d5.02674351517 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.umf7rz196ac4slw7hjnbgrgblgfal3qrrldoclxjim6egv8c0wdy6iuc2s0clhre.fefb1ca3b59cbf17211398c91c640060bb3cd0c0%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yd4hgzqayr5iuwbilzqy-ry%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjy4qxlebzgyalfqownrnuzpuxn5etvlu2fodxbstlczvvvhbkzuu2f5qzn5tfvur1hoy2vrz2jfadn4enh5b1bxqtdvtvr1twhlveq%26b64e%3d2%26sign%3d62a3dbece316430957f7914ecda8cbe2%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqyp93xfrtkbaw9_mhzilomcqoydno6nrcu424skc1rim5pct_gayoozv-lprmobu2kaay4jq85hcvdopaej9bmvjxhhhuqbnnff5ohufvczsmezezvmn7z97dmiudy8qjnkvbskqo56p%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcujf_ou3qrjt6rm7zhjpliltwcxm9zacakvwvfsb8eaya0oz7bwzmqb32jjwwllsxqy-oyctaisor6vfhgflxdo%26l10n%3dru%26cts%3d1529415881406%26mc%3d1.7969163141 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1825.fzbcjnh7-i_krdd8tikppnld1sthfrd2k-bw6699y-xur7c2ed11hm-kvo4qxbxc.f32e456ae952c6ef171744685c725d1e1cebbbff%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yg-xuiupxkrkaopisarvvb8%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjy5wxdrc29vrvjfc25rbgllswe1ztr4wm52avv2muz3supvde1zbldidda3nmnxt0zudlpergvmnjl5aw52cwxjbhhrywjydjitula%26b64e%3d2%26sign%3da6f3cfc7b6a9930ed05ecb66bce41038%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbi3kpgu3lzxrct-ay2anjkoeud5nbo6afkvmccuq6qnjoxivr_ithnxoi7olslcbx-bl34gpmqvsyo-m7xatvbakeoronjpmtj_q9skk_tjn9xia8ketg5w26qp4iafenl%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcuplg4bhkqjvlvym8gjhe_asmurysigv8tztmbkqgl75p5pzp0hojxawj4i9twqxukcx25r6aazi7xfsminwbyb%26l10n%3dru%26cts%3d1529534331185%26mc%3d5.25266618211 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+https 3
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1825.fzbcjnh7-i_krdd8tikppnld1sthfrd2k-bw6699y-xur7c2ed11hm-kvo4qxbxc.f32e456ae952c6ef171744685c725d1e1cebbbff%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yg-xuiupxkrkaopisarvvb8%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjy5wxdrc29vrvjfc25rbgllswe1ztr4wm52avv2muz3supvde1zbldidda3nmnxt0zudlpergvmnjl5aw52cwxjbhhrywjydjitula%26b64e%3d2%26sign%3da6f3cfc7b6a9930ed05ecb66bce41038%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbi3kpgu3lzxrct-ay2anjkoeud5nbo6afkvmccuq6qnjoxivr_ithnxoi7olslcbx-bl34gpmqvsyo-m7xatvbakeoronjpmtj_q9skk_tjn9xia8ketg5w26qp4iafenl%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcuplg4bhkqjvlvym8gjhe_asmurysigv8tztmbkqgl75p5pzp0hojxawj4i9twqxukcx25r6aazi7xfsminwbyb%26l10n%3dru%26cts%3d1529534331185%26mc%3d5.25266618211 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.umf7rz196ac4slw7hjnbgrgblgfal3qrrldoclxjim6egv8c0wdy6iuc2s0clhre.fefb1ca3b59cbf17211398c91c640060bb3cd0c0%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yd4hgzqayr5iuwbilzqy-ry%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjy4qxlebzgyalfqownrnuzpuxn5etvlu2fodxbstlczvvvhbkzuu2f5qzn5tfvur1hoy2vrz2jfadn4enh5b1bxqtdvtvr1twhlveq%26b64e%3d2%26sign%3d62a3dbece316430957f7914ecda8cbe2%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqyp93xfrtkbaw9_mhzilomcqoydno6nrcu424skc1rim5pct_gayoozv-lprmobu2kaay4jq85hcvdopaej9bmvjxhhhuqbnnff5ohufvczsmezezvmn7z97dmiudy8qjnkvbskqo56p%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcujf_ou3qrjt6rm7zhjpliltwcxm9zacakvwvfsb8eaya0oz7bwzmqb32jjwwllsxqy-oyctaisor6vfhgflxdo%26l10n%3dru%26cts%3d1529415881406%26mc%3d1.7969163141 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.g-szl_7tcmrhbqk9cgvo2d1ssigk-hcbswtf4e1mtesn7ndvxgpznkjnfc78zafe.e0963b913cb992d2121adeb3b835e7b772b723a6%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yfuvnhhyyhjgrfg5yelmiwu%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxczvivzvtcthsqs1lvmy1rvptzl9qx1phtwdyznr0rjz5svhhtk9fawy5n3dibjvjt3e2cxpxnm9qx09angxonxzwehpkeexxtnfisxd2strksc1umeu1btbfqkrrcevlbudndwnsnui0wmo%26b64e%3d2%26sign%3d7bfc9e5106c0bc52b113788da5d3ed14%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbiqguq8guadtkxsmxpz1hwdf9nf63eegaqcikpma4e3vw8ys7u_odzo48uk8lwiozgatxccpkt2kiirwlciusy2vley5xobly_zmbfinr7ngcel1crdh7bf5e1zgaglaw9%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvmxzkm5y4ftl_egpkafurakrkbqghmoo6nhk6aeqmoptuhn8ivgazhfbhrvsxkyplksjzgpnkcbxhihjomyafp%26l10n%3dru%26cts%3d1529415881406%26mc%3d5.02674351517 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 18 186551385
+301 2 920
+404 81 32738
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 10
+/static/video/aykikay.webm 3 http://tenchi.galactika-it.ru/
+/static/js/swiper.min.js.map 70 -
+/news.pug 1 -
+/static/video/akikay.mp4 1 -
+/sensei_all.html 1 -
+/abouy.html 1 -
+/about-us.html 1 -
+/sansei_all 1 -
+/contact.html 1 -
+/gellery_all.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+195.238.108.3 655 2641 684698768 20180621181313 20180621181258 /static/fonts/Montserrat-Light.woff2
+141.170.235.188 156 702 58119975 20180619005005
+46.211.108.207 149 447 12531239 20180615112814
+66.249.93.13 47 200 13347195 20180620095655
+66.249.93.10 41 220 15543858 20180620095655
+66.249.93.12 36 204 9515985 20180620095655
+46.63.45.24 18 117 139203229 20180621141037
+66.102.9.151 11 48 2147459 20180621140421
+37.110.38.228 10 13 4010411 20180621014749
+66.102.9.149 10 39 2956189 20180621121425
+66.102.9.153 5 31 2672935 20180621121421
+128.30.52.73 4 4 30040 20180613152553
+89.178.17.0 9 11 3347649 20180619165211
+178.140.120.77 0 1 765420 
+128.30.52.96 3 3 14056 20180619165841
+128.30.52.134 6 6 47424 20180620095808
+46.211.129.57 1 2 7239 20180615154121
+128.30.52.72 7 7 50206 20180613152559
+188.170.81.229 8 38 2212654 20180618203205
+31.171.199.218 1 2 662248 20180619165206
+37.110.129.82 10 13 3112953 20180614054052
+128.30.52.64 5 5 38303 20180613152533
+176.15.231.136 1 3 354078 20180619165200
+138.201.226.163 0 2 59452486 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20180606 26 152 10939602 2
+20180607 65 360 27813199 6
+20180608 32 185 14123111 4
+20180609 66 202 21650527 2
+20180611 33 179 12734524 5
+20180612 46 207 16941992 8
+20180613 157 607 32939778 11
+20180614 28 89 5703143 2
+20180615 389 1131 39756143 6
+20180618 51 206 14121769 3
+20180619 34 232 23636350 9
+20180620 45 205 13737606 5
+20180621 221 953 1429135307 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 4
+0s-30s 40
+30s-2mn 4
+2mn-5mn 3
+15mn-30mn 10
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 179 1327737 48 19
+/static/fonts/Montserrat-Light.woff2 151 11028369 0 15
+/static/fonts/Montserrat-Regular.woff2 150 11045238 1 3
+/static/fonts/Montserrat-SemiBold.woff2 150 10997238 2 2
+/static/fonts/Montserrat-Medium.woff2 150 11027958 3 8
+/static/fonts/Montserrat-Bold.woff2 150 11031798 4 4
+/about.html 27 115380 2 0
+/news_club.html 25 129209 3 2
+/static/fonts/Montserrat-Bold.woff 14 555600 0 0
+/static/fonts/Montserrat-ExtraLight.woff 14 547072 0 0
+/static/favicon/manifest.json 2 1934 0 0
+/sansei_all.html 3 18823 0 1
+/news_japan.html 1 5913 0 0
+/static/fonts/Montserrat-SemiBold.eot 3 959280 1 1
+/contacts.html 6 41537 1 2
+/open.html 1 6447 0 1
+/static/fonts/Montserrat-Bold.eot 3 960768 0 0
+/static/fonts/Montserrat-Light.eot 3 954744 0 1
+/sansei_this.html 3 20043 0 1
+/gallery_one.html 5 23696 0 0
+/static/fonts/Montserrat-Thin.woff 14 532128 0 0
+/static/fonts/Montserrat-Black.eot 3 1000944 0 0
+/static/fonts/Montserrat-Regular.eot 3 965676 0 0
+/2/fonts/JaapokkisubtractRegular.woff2 6 93492 0 1
+/article_foto.html 1 7438 1 0
+/static/fonts/Montserrat-Black.woff 14 560496 0 1
+/static/fonts/Montserrat-Regular.woff 14 554400 0 0
+/static/fonts/Montserrat-Light.woff 14 549568 0 0
+/static/fonts/Montserrat-SemiBold.woff 14 552928 0 0
+/static/video/aykikay.webm 1 0 0 1
+/static/fonts/Montserrat-ExtraBold.eot 3 963060 0 1
+/static/fonts/Montserrat-Medium.woff 14 554064 0 0
+/gallery_all.html 6 34558 1 1
+/news.html 5 27788 0 0
+/aykido.html 1 8018 0 0
+/1/ 7 23450 3 3
+/article.html 2 14800 0 0
+/static/fonts/Montserrat-Medium.eot 3 957228 0 0
+/static/fonts/Montserrat-ExtraBold.woff 14 554960 0 0
+/static/fonts/Montserrat-ExtraLight.eot 3 957240 0 1
+/price.html 1 5956 0 0
+/static/fonts/Montserrat-Thin.eot 3 955464 0 0
+/2/ 7 16324 1 1
+END_SIDER
