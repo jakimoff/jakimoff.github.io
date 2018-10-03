@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Elements Components</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <!--include ../modules/header-->
+      <div class="content">
+        <div class="form_elements_wrap" id="app">
+          <div class="container">
+            <h1>Form Elements Components</h1>
+            <form class="form_elements">
+              <p>1. Input text</p>
+              <input-text placeholder="This is demo text"></input-text>
+              <p>2. Input numeric</p>
+              <input-numeric></input-numeric>
+              <p>3. Input range</p>
+              <my-input-range min="0" max="2000"></my-input-range>
+              <p>4. Input select</p>
+              <my-select>
+                <my-option name="this is demo text"></my-option>
+                <my-option name="lorem ipsum dolore"></my-option>
+                <my-option name="this is demo text"></my-option>
+                <my-option name="lorem ipsum dolore"></my-option>
+                <my-option name="this is demo text"></my-option>
+              </my-select>
+              <p>5. Button on/off</p>
+              <my-btn-toggle id="my-btn"></my-btn-toggle>
+              <p>6. Radio button</p>
+              <my-radio text="Hello" id="radio-1" name="radio"></my-radio>
+              <my-radio text="World" id="radio-2" name="radio"></my-radio>
+              <my-radio text="VueJS" id="radio-3" name="radio"></my-radio>
+              <p>7. Check-box button</p>
+              <my-checkbox text="Hello" id="checkbox-1" name="checkbox"></my-checkbox>
+              <my-checkbox text="World" id="checkbox-2" name="checkbox"></my-checkbox>
+              <my-checkbox text="VueJS" id="checkbox-3" name="checkbox"></my-checkbox>
+              <p>8. Tabs</p>
+              <tabs>
+                <tab name="About us" :selected="true">
+                  <h1>Here is the content for about us.</h1>
+                </tab>
+                <tab name="About our mood">
+                  <h1>Here is the content for about our mood.</h1>
+                </tab>
+                <tab name="About our culture">
+                  <h1>Here is the content for about our culture.</h1>
+                </tab>
+              </tabs>
+              <p>9. Side A/B</p>
+              <my-multi-select>
+                <my-select-left>
+                  <my-option name="this is demo text"></my-option>
+                  <my-option name="lorem ipsum dolore"></my-option>
+                  <my-option name="this is demo text"></my-option>
+                  <my-option name="lorem ipsum dolore"></my-option>
+                  <my-option name="this is demo text"></my-option>
+                </my-select-left>
+                <my_side_btn></my_side_btn>
+                <my-select-right>
+                  <my-option name="this is demo text"></my-option>
+                </my-select-right>
+              </my-multi-select>
+              <p>10. Button</p>
+              <my-btn text="My button" id="my-btn-1"></my-btn>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--include ../modules/footer-->
+    </div>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <!--include ../modules/header-->
+      <div class="content">
+        <div class="settings_wrap" id="app">
+          <div class="container">
+            <form class="form_elements settings">
+              <h1>Settings</h1>
+              <tabs>
+                <tab name="Game" :selected="true">
+                  <div class="game_settings_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Screen Resolution</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Widescreen Mode</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Antialiasing</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-btn-toggle id="my-btn"></my-btn-toggle>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Gamma (Full Screen)</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Full screen mode" id="checkbox-1" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Vertical synchronization" id="checkbox-2" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Triple buffering" id="checkbox-3" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Colorblind Mode" id="checkbox-4" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item up_br">
+                        <div class="subset_this">
+                          <my-radio text="Inside" id="radio-1" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Custom Cursor" id="radio-2" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Bloom" id="radio-3" name="radio"></my-radio>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="game_settings_wrap up">
+                    <div class="game_settings">
+                      <div class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="game_subset">
+                      <div class="game_subset__item">
+                        <div class="subset_this">
+                          <my-btn text="Auto-Detect" id="my-btn-1"></my-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_subset_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-text placeholder="This is demo text"></input-text>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-numeric></input-numeric>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </tab>
+                <tab name="Graphics">
+                  <div class="game_settings_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Screen Resolution</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Widescreen Mode</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Antialiasing</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-btn-toggle id="my-btn"></my-btn-toggle>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Gamma (Full Screen)</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Full screen mode" id="checkbox-1" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Vertical synchronization" id="checkbox-2" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Triple buffering" id="checkbox-3" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Colorblind Mode" id="checkbox-4" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item up_br">
+                        <div class="subset_this">
+                          <my-radio text="Inside" id="radio-1" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Custom Cursor" id="radio-2" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Bloom" id="radio-3" name="radio"></my-radio>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="game_settings_wrap up">
+                    <div class="game_settings">
+                      <div class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="game_subset">
+                      <div class="game_subset__item">
+                        <div class="subset_this">
+                          <my-btn text="Auto-Detect" id="my-btn-1"></my-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_subset_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-text placeholder="This is demo text"></input-text>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-numeric></input-numeric>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </tab>
+                <tab name="Volume">
+                  <div class="game_settings_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Screen Resolution</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Widescreen Mode</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Antialiasing</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-btn-toggle id="my-btn"></my-btn-toggle>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Gamma (Full Screen)</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Full screen mode" id="checkbox-1" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Vertical synchronization" id="checkbox-2" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Triple buffering" id="checkbox-3" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Colorblind Mode" id="checkbox-4" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item up_br">
+                        <div class="subset_this">
+                          <my-radio text="Inside" id="radio-1" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Custom Cursor" id="radio-2" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Bloom" id="radio-3" name="radio"></my-radio>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="game_settings_wrap up">
+                    <div class="game_settings">
+                      <div class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="game_subset">
+                      <div class="game_subset__item">
+                        <div class="subset_this">
+                          <my-btn text="Auto-Detect" id="my-btn-1"></my-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_subset_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-text placeholder="This is demo text"></input-text>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-numeric></input-numeric>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </tab>
+                <tab name="Controls">
+                  <div class="game_settings_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Screen Resolution</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Widescreen Mode</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Antialiasing</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-btn-toggle id="my-btn"></my-btn-toggle>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Gamma (Full Screen)</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Full screen mode" id="checkbox-1" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Vertical synchronization" id="checkbox-2" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Triple buffering" id="checkbox-3" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Colorblind Mode" id="checkbox-4" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item up_br">
+                        <div class="subset_this">
+                          <my-radio text="Inside" id="radio-1" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Custom Cursor" id="radio-2" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Bloom" id="radio-3" name="radio"></my-radio>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="game_settings_wrap up">
+                    <div class="game_settings">
+                      <div class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="game_subset">
+                      <div class="game_subset__item">
+                        <div class="subset_this">
+                          <my-btn text="Auto-Detect" id="my-btn-1"></my-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_subset_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-text placeholder="This is demo text"></input-text>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-numeric></input-numeric>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </tab>
+                <tab name="Custom">
+                  <div class="game_settings_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Screen Resolution</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Widescreen Mode</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="lorem ipsum dolore"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Antialiasing</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-btn-toggle id="my-btn"></my-btn-toggle>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Gamma (Full Screen)</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Full screen mode" id="checkbox-1" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Vertical synchronization" id="checkbox-2" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Triple buffering" id="checkbox-3" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-checkbox text="Colorblind Mode" id="checkbox-4" name="checkbox"></my-checkbox>
+                        </div>
+                      </li>
+                      <li class="game_subset__item up_br">
+                        <div class="subset_this">
+                          <my-radio text="Inside" id="radio-1" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Custom Cursor" id="radio-2" name="radio"></my-radio>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="subset_this">
+                          <my-radio text="Bloom" id="radio-3" name="radio"></my-radio>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="game_settings_wrap up">
+                    <div class="game_settings">
+                      <div class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="game_subset">
+                      <div class="game_subset__item">
+                        <div class="subset_this">
+                          <my-btn text="Auto-Detect" id="my-btn-1"></my-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_subset_wrap">
+                    <ul class="game_settings">
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_settings__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="game_subset">
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-select>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                            <my-option name="this is demo text"></my-option>
+                          </my-select>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-text placeholder="This is demo text"></input-text>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <input-numeric></input-numeric>
+                        </div>
+                      </li>
+                      <li class="game_subset__item">
+                        <div class="settings_label">
+                          <p>Monitor</p>
+                        </div>
+                        <div class="settings_this">
+                          <my-input-range min="0" max="2000"></my-input-range>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </tab>
+              </tabs>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--include ../modules/footer-->
+    </div>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>

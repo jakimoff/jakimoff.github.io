@@ -1,0 +1,359 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.water.galactika-it.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2001                
+POS_TIME 2660                
+POS_VISITOR 6796                
+POS_DAY 8381                
+POS_DOMAIN 3389                
+POS_LOGIN 3622                
+POS_ROBOT 3777                
+POS_WORMS 4125                
+POS_EMAILSENDER 4256                
+POS_EMAILRECEIVER 4399                
+POS_SESSION 8998                
+POS_SIDER 9204                
+POS_FILETYPES 4534                
+POS_DOWNLOADS 4737                
+POS_OS 4808                
+POS_BROWSER 4926                
+POS_SCREENSIZE 5296                
+POS_UNKNOWNREFERER 5370                
+POS_UNKNOWNREFERERBROWSER 5532                
+POS_ORIGIN 5614                
+POS_SEREFERRALS 5754                
+POS_PAGEREFS 5911                
+POS_SEARCHWORDS 6091                
+POS_KEYWORDS 6243                
+POS_MISC 2324                
+POS_ERRORS 6302                
+POS_CLUSTER 3478                
+POS_SIDER_404 6400                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181001082556 1 0 10379963455530
+FirstTime 0
+LastTime 20180930184022
+LastUpdate 20181002041610 1 0 0 0 0
+TotalVisits 52                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 3 9822
+1 2 26 1947925 11 20 49175
+2 0 0 0 4 4 13133
+3 155 293 6427441 9 18 631355
+4 193 244 2737815 11 20 267763
+5 6 31 912909 2 7 43561
+6 333 364 2000028 0 4 3098
+7 72 188 4595433 3 9 139383
+8 283 410 4346285 28 36 111370
+9 324 457 4456727 3 10 16355
+10 105 158 2173933 25 44 1407226
+11 114 124 596918 5 12 41031
+12 105 136 1291903 10 22 662329
+13 2 8 1079053 4 9 22391
+14 0 0 0 1 3 5209
+15 3 28 1831347 9 15 639172
+16 5 15 682470 5 16 47795
+17 9 14 0 14 23 677898
+18 9 9 0 3 7 40456
+19 2 31 1762338 4 10 19071
+20 0 0 0 1 1 3910
+21 0 0 0 4 8 16338
+22 0 0 0 17 32 677220
+23 0 0 0 9 16 667109
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1722 2536 36842525
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+yandex 293 5967319 20180930170239 72
+crawl 23 79539 20180914083827 1
+favicon 14 46991 20180908105740 0
+unknown 5 1608 20180913104738 5
+bot[\s_+:,\.\;\/\\-] 3 13475 20180913104759 0
+cfnetwork 2 25145 20180927160658 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 37 9334320 0 0
+png 517 11099111 0 0
+html 157 341773 0 0
+js 77 7862616 0 0
+jpg 158 5788457 0 0
+woff2 1565 2281464 0 0
+svg 25 134784 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 77 0 27786
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 1938
+linuxandroid 69
+winxp 22
+winnt 307
+Unknown 16
+winvista 16
+win7 168
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+chrome67.0.3396.87 42
+chrome52.0.2743.116 21
+safari11.0 136
+safari10.1.2 1311
+chrome69.0.3497.81 79
+chrome68.0.3440.106 120
+chrome69.0.3497.92 38
+firefox61.0 12
+msie8.0 6
+firefox62.0 239
+safari11.0.3 364
+mozilla 17
+msie10.0 12
+chrome67.0.3396.103 34
+chrome49.0.2623.112 22
+chrome65.0.3325.109 69
+chrome64.0.3282.140 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20180921074823
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 58
+From1 0 0
+From2 13 13
+From3 6 6
+From4 1675 2459
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 13 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://away.vk.com/away.php 6 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 1 75645
+404 6 2448
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/static/img/general/undefined.png 6 http://water.galactika-it.ru/product_pandrosa.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+95.161.223.179 1178 1312 4317918 20180930184022
+109.71.177.12 302 395 3044514 20180926091250
+46.63.4.178 65 126 2703183 20180913104745
+91.204.56.253 43 143 3558624 20180921094009
+188.170.80.96 26 48 1237542 20180921073104
+141.170.235.188 25 79 2555414 20180909035758
+46.252.212.6 16 42 1236645 20180902123422
+178.133.70.165 12 39 1262492 20180911035749
+188.163.73.210 9 31 1232753 20180912041636
+188.170.82.114 8 26 493536 20180901101409
+95.24.207.73 2 45 2090338 20180912060334
+46.42.129.162 1 22 975559 20180911091431
+195.211.23.211 0 1 17374 
+195.211.23.210 0 1 3511 
+195.211.23.212 0 1 10890 
+77.37.169.98 1 4 539855 20180930150836
+178.133.114.196 6 30 1233499 20180912081230
+195.211.23.207 0 1 1222 
+195.211.23.220 0 1 54808 
+89.178.92.49 1 14 1117374 20180927012110
+195.211.23.206 1 1 4789 20180921074823
+188.170.81.80 6 32 1236679 20180921080543
+195.211.23.221 0 1 1418 
+94.180.195.54 1 10 808545 20180926034231
+128.75.4.117 1 4 539885 20180916134035
+195.211.23.209 0 1 25145 
+46.42.169.29 1 22 975559 20180922152359
+195.211.23.215 0 1 75645 
+95.84.155.116 1 12 830551 20180918012253
+195.211.23.214 0 1 11479 
+195.211.23.208 0 1 1924 
+37.110.43.221 1 10 809043 20180905193425
+188.170.82.16 6 31 912909 20180914054505
+188.170.82.22 6 33 1482722 20180919042406
+195.211.23.218 0 1 11457 
+195.211.23.217 0 1 11757 
+95.24.94.21 1 4 539151 20180917032005
+195.211.23.213 0 1 10254 
+195.211.23.216 0 1 10448 
+195.211.23.219 0 1 1013 
+95.27.72.225 1 4 539168 20180916134031
+128.68.35.142 1 2 315933 20180911153614
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20180901 8 26 493536 1
+20180902 16 42 1236645 2
+20180903 55 88 1389203 2
+20180905 2 31 1762338 2
+20180906 6 32 1236645 1
+20180909 137 199 2015761 2
+20180910 87 94 366417 1
+20180911 34 139 5229861 5
+20180912 16 85 3603295 3
+20180913 10 38 1313980 1
+20180914 6 31 912909 1
+20180916 2 8 1079053 2
+20180917 252 297 2546877 3
+20180918 143 159 1359049 2
+20180919 374 406 1492300 4
+20180920 26 31 0 1
+20180921 308 453 5325623 6
+20180922 1 22 975559 1
+20180926 51 115 2137538 3
+20180927 6 29 1799844 2
+20180928 162 188 26237 2
+20180929 1 1 0 1
+20180930 19 22 539855 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 3
+0s-30s 33
+15mn-30mn 4
+2mn-5mn 3
+30s-2mn 4
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/static/fonts/Akrobat-Bold.woff2 215 360800 0 0
+/static/fonts/Akrobat-SemiBold.woff2 214 342532 2 0
+/static/fonts/Akrobat-Regular.woff2 213 346000 1 4
+/static/fonts/Akrobat-Black.woff2 196 373800 0 2
+/static/fonts/Akrobat-ExtraBold.woff2 194 239148 0 2
+/static/fonts/Akrobat-Light.woff2 194 391600 2 9
+/static/fonts/Akrobat-Thin.woff2 170 103152 4 17
+/static/fonts/Akrobat-ExtraLight.woff2 169 124432 0 0
+/ 62 148459 28 6
+/product_polustrovo.html 21 46764 6 3
+/articles.html 4 5554 0 0
+/product_nataliya.html 1 3910 0 0
+/catalog.html 15 11684 1 0
+/answers-questions.html 1 2980 0 0
+/our_award.html 1 5059 0 0
+/registration.html 1 3045 0 0
+/enter.html 2 5424 1 1
+/about_company.html 18 25380 1 2
+/search.html 1 3035 0 0
+/product_pandrosa.html 6 15708 2 2
+/delivery.html 8 19260 2 2
+/vacancy.html 1 3098 0 0
+/contacts.html 6 12028 0 0
+/cart.html 8 25544 2 2
+/article.html 1 4841 0 0
+END_SIDER
