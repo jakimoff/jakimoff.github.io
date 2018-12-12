@@ -1,0 +1,260 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tie.galactika-it.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2658                
+POS_VISITOR 6023                
+POS_DAY 6294                
+POS_DOMAIN 3223                
+POS_LOGIN 3451                
+POS_ROBOT 3606                
+POS_WORMS 3805                
+POS_EMAILSENDER 3936                
+POS_EMAILRECEIVER 4079                
+POS_SESSION 6463                
+POS_SIDER 6630                
+POS_FILETYPES 4214                
+POS_DOWNLOADS 4419                
+POS_OS 4489                
+POS_BROWSER 4563                
+POS_SCREENSIZE 4647                
+POS_UNKNOWNREFERER 4721                
+POS_UNKNOWNREFERERBROWSER 4808                
+POS_ORIGIN 4890                
+POS_SEREFERRALS 5022                
+POS_PAGEREFS 5166                
+POS_SEARCHWORDS 5314                
+POS_KEYWORDS 5466                
+POS_MISC 2322                
+POS_ERRORS 5525                
+POS_CLUSTER 3307                
+POS_SIDER_404 5610                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181102085221 1 0 10367061645355
+FirstTime 0
+LastTime 20181031072329
+LastUpdate 20181103041413 1 0 0 0 0
+TotalVisits 8                   
+TotalUnique 5                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 1 2 1743
+3 3 13 1764361 0 1 336
+4 0 0 0 0 4 4720
+5 0 0 0 1 4 6926
+6 0 0 0 0 2 2360
+7 7 15 2285172 2 4 3144
+8 0 0 0 0 0 0
+9 6 21 2278725 0 3 2696
+10 5 17 2178957 1 2 4566
+11 0 0 0 2 4 6309
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 1 2 1743
+15 0 0 0 2 4 9132
+16 0 0 0 0 0 0
+17 1 2 3320 2 3 8959
+18 1 2 3320 1 4 6926
+19 0 0 0 0 2 2360
+20 0 0 0 3 10 1404326
+21 0 0 0 1 2 1743
+22 0 0 0 0 2 2360
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 23 70 8513855
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+yandex 51 1468893 20181031040835 22
+unknown 2 672 20181018032816 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 4 2070428 0 0
+eot 4 592280 0 0
+png 28 1433107 0 0
+woff2 8 259552 0 0
+html 11 30314 0 0
+js 8 3261184 0 0
+jpg 4 825344 0 0
+svg 3 41646 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 24 0 7096
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+macosx 38
+linuxandroid 17
+winnt 15
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 2
+mozilla 15
+chrome69.0.3497.100 55
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 6 9
+From1 0 0
+From2 0 0
+From3 0 0
+From4 17 61
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 2 784
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/contacts.html 1 http://tie.galactika-it.ru/tie2.html
+/main.html 1 http://tie.galactika-it.ru/tie1.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 5
+46.63.4.178 11 38 4049726 20181019185914
+80.95.185.61 7 15 2285172 20181031072329
+66.249.93.55 3 7 823628 20181003103914
+66.249.93.51 1 2 75208 20181003103912
+66.249.93.53 1 8 1280121 20181003103914
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20181003 11 38 4457682 4
+20181010 1 2 3320 1
+20181018 3 13 1764361 1
+20181019 1 2 3320 1
+20181031 7 15 2285172 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+30s-2mn 1
+0s-30s 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 6 8706 6 2
+/static/fonts/JuraMedium.woff2 3 97158 1 2
+/tie2.html 3 12822 1 2
+/static/fonts/JuraDemiBold.woff2 3 98598 0 0
+/static/fonts/JuraBook.woff2 2 63796 0 1
+/tie1.html 2 8786 0 1
+/static/fonts/JuraLight.eot 1 146584 0 0
+/static/fonts/JuraBook.eot 1 148084 0 0
+/static/fonts/JuraMedium.eot 1 147724 0 0
+/static/fonts/JuraDemiBold.eot 1 149888 0 0
+END_SIDER
