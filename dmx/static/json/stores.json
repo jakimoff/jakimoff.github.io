@@ -1,0 +1,24 @@
+[
+  {
+    "img": "magaz.jpg",
+    "title": "Local",
+    "country": "Ukraine",
+    "location": "510 Pilotskaya street. 54",
+    "email": "houdiho@live.com",
+    "attributes": "on",
+    "x": "61%",
+    "y": "51%",
+    "unique": "unique1"
+  },
+  {
+    "img": "magaz.jpg",
+    "title": "Demo",
+    "country": "Poland",
+    "location": "511 Annie Trail Apt. 761",
+    "email": "test@gmail.com",
+    "attributes": "off",
+    "x": "80%",
+    "y": "70%",
+    "unique": "unique2"
+  }
+]

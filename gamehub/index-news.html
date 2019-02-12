@@ -1,0 +1,930 @@
+
+<!-- News mixins--><!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>GAMEHUB | Новости</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="news-page">
+    <div class="wrapper" canvas="container">
+      <div class="wrapper_global">
+        <header>
+          <div class="container">
+            <div class="row">
+              <div class="header">
+                <div class="header_col">
+                  <div class="header_logo"><a class="header_logo__this" href="index.html">
+                      <svg class="icon icon-logo header_logo__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#logo"></use>
+                      </svg></a></div>
+                </div>
+                <div class="header_col">
+                  <div class="header_menu">
+                    <ul class="nav">
+                      <li class="nav__item"><a class="nav__link active_link" href="index-news.html">Новости</a></li>
+                      <li class="nav__item"><a class="nav__link" href="#">События</a></li>
+                      <li class="nav__item"><a class="nav__link" href="#">Видео</a></li>
+                      <li class="nav__item"><a class="nav__link" href="#">Зарплаты</a></li>
+                      <li class="nav__item"><a class="nav__link" href="#">Статьи</a></li>
+                    </ul>
+                    <div class="header_burger">
+                      <button class="burger" name="menu">
+                        <svg class="icon icon-menu burger__svg">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#menu"></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="header_search">
+                      <button class="header_search__btn">
+                        <svg class="icon icon-search header_search__svg">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="header_enter">
+                    <button class="header_enter__btn">
+                      <svg class="icon icon-user header_enter__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#user"></use>
+                      </svg>
+                    </button>
+                    <div class="header_enter__container">
+                      <div class="header_enter__wrap"><a class="header_enter__registration" href="#">Регистрация</a><span>/</span><a class="header_enter__this" href="#">Вход</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="content">
+          <div class="banner_wrap slider_global">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slide_1">
+                  <div class="banner">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="banner_full"><img src="static/img/content/banner1.jpg" alt="article"/><a class="banner_full__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                            <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="banner_lite"><img src="static/img/content/banner2.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="banner_small small_global"><img src="static/img/content/banner3.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="banner_small small_demo"><img class="banner_global__error" src="static/img/general/error_img.png" alt="error_img"/><a class="banner_global__title" href="#">Рекламное место<br/>480х410</a>
+                                <p class="banner_global__info">Тут можно разместить ваш банер</p><a class="global_link" href="#">Подробнее</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slide_2">
+                  <div class="banner">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="banner_full"><img src="static/img/content/banner1.jpg" alt="article"/><a class="banner_full__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                            <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="banner_lite"><img src="static/img/content/banner2.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="banner_small small_global"><img src="static/img/content/banner3.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="banner_small small_demo"><img class="banner_global__error" src="static/img/general/error_img.png" alt="error_img"/><a class="banner_global__title" href="#">Рекламное место<br/>480х410</a>
+                                <p class="banner_global__info">Тут можно разместить ваш банер</p><a class="global_link" href="#">Подробнее</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slide_3">
+                  <div class="banner">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="banner_full"><img src="static/img/content/banner1.jpg" alt="article"/><a class="banner_full__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                            <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="banner_lite"><img src="static/img/content/banner2.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                <p class="banner_global__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="banner_small small_global"><img src="static/img/content/banner3.jpg" alt="article"/><a class="banner_global__title" href="#">Lorem ipsum dolor sit amet, consectetur</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="banner_small small_demo"><img class="banner_global__error" src="static/img/general/error_img.png" alt="error_img"/><a class="banner_global__title" href="#">Рекламное место<br/>480х410</a>
+                                <p class="banner_global__info">Тут можно разместить ваш банер</p><a class="global_link" href="#">Подробнее</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="breadcrumbs_wrap">
+                  <div class="global_breadcrumbs">
+                    <h2 class="global_breadcrumbs__title">Новости</h2>
+                    <div class="breadcrumbs"><a class="breadcrumbs__link" href="index.html">Главная</a><i>/</i><span class="breadcrumbs__this">Новости</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news_slider_wrap">
+            <div class="container pad_gl">
+              <div class="row">
+                <div class="col-xl-8 col-lg-12">
+                  <div class="slider_sub">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slide_1">
+                          <div class="news_full news_index_slider"><img class="news_full__img" src="static/img/content/banner1.jpg" alt="news"/><a class="base_red global_category" href="#">мобильные игры</a><a class="news_full__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                            <div class="global_date date_article date_news">
+                              <p class="global_date__now">8 сентября, 17:31</p>
+                              <div class="global_date__icon">
+                                <svg class="icon icon-eye global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                                </svg><span class="global_date__count">78</span>
+                              </div>
+                              <p class="global_date__this">
+                                <svg class="icon icon-chat global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                                </svg>22
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slide_2">
+                          <div class="news_full news_index_slider"><img class="news_full__img" src="static/img/content/banner1.jpg" alt="news"/><a class="base_red global_category" href="#">мобильные игры</a><a class="news_full__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                            <div class="global_date date_article date_news">
+                              <p class="global_date__now">8 сентября, 17:31</p>
+                              <div class="global_date__icon">
+                                <svg class="icon icon-eye global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                                </svg><span class="global_date__count">78</span>
+                              </div>
+                              <p class="global_date__this">
+                                <svg class="icon icon-chat global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                                </svg>22
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slide_3">
+                          <div class="news_full news_index_slider"><img class="news_full__img" src="static/img/content/banner1.jpg" alt="news"/><a class="base_red global_category" href="#">мобильные игры</a><a class="news_full__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                            <div class="global_date date_article date_news">
+                              <p class="global_date__now">8 сентября, 17:31</p>
+                              <div class="global_date__icon">
+                                <svg class="icon icon-eye global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                                </svg><span class="global_date__count">78</span>
+                              </div>
+                              <p class="global_date__this">
+                                <svg class="icon icon-chat global_date__svg">
+                                  <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                                </svg>22
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-12">
+                  <div class="hidden__lg">
+                    <div class="form_wrap form_wrap__email">
+                      <form class="form_news form_email">
+                        <svg class="icon icon-email form_news__svg">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#email"></use>
+                        </svg>
+                        <div class="form_news__block">
+                          <p class="form_news__sub">Узнайте первыми<br/>самые свежие новости игровой индустрии</p>
+                          <h4 class="form_news__title">Подписаться на рассылку</h4>
+                        </div>
+                        <div class="input_wrap">
+                          <input class="form_news__input" type="email" name="email" placeholder="Ваш email:"/>
+                        </div>
+                        <div class="button_wrap">
+                          <button class="global_link" name="btn-global">Подписаться</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="hidden__lg__this">
+                      <div class="news_category_wrap">
+                        <h5 class="news_category__title">Категории новостей</h5>
+                        <ul class="news_category">
+                          <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                          <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                            <svg class="icon icon-right news_category__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                            </svg>
+                          </li>
+                        </ul>
+                        <div class="global_link_wrappper"><a class="global_link" href="#">Все новости</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news_content_wrap">
+            <div class="container news_content pad_gl">
+              <div class="row">
+                <div class="col-xl-8">
+                  <div class="news_hide_category">
+                    <div class="news_category_wrap">
+                      <h5 class="news_category__title">Категории новостей</h5>
+                      <ul class="news_category">
+                        <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                      </ul>
+                      <div class="global_link_wrappper"><a class="global_link" href="#">Все новости</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap_category">
+                    <p class="global_titles">Новости
+                      <svg class="icon icon-right global_titles__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                      </svg>
+                    </p>
+                    <div class="select_wrap__this">
+                      <svg class="icon icon-right select_wrap__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                      </svg>
+                      <select class="category_select">
+                        <option class="category_select__item" selected default hidden>Категория</option>
+                        <option class="category_select__item">Категория 1</option>
+                        <option class="category_select__item">Категория 2</option>
+                        <option class="category_select__item">Категория 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <ul class="news_unit news_page">
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="newsNaN"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news hot_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="news1"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="news2"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="news3"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="news4"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="news_unit__item">
+                      <div class="news_unit__link">
+                        <div class="news_unit__bg"><a class="news_unit__bgLink" href="#"><img class="news_unit__img" src="static/img/content/news1.jpg" alt="news5"/></a><a class="base_yellow global_category" href="#">мобильные игры</a>
+                        </div>
+                      </div>
+                      <div class="news_page__item"><a class="news_page__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим айтішники</a>
+                        <p class="news_page__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <div class="global_date date_article date_news">
+                          <p class="global_date__now">8 сентября, 17:31</p>
+                          <div class="global_date__icon">
+                            <svg class="icon icon-eye global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                            </svg><span class="global_date__count">78</span>
+                          </div>
+                          <p class="global_date__this">
+                            <svg class="icon icon-chat global_date__svg">
+                              <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                            </svg>22
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <button class="global_link" name="btn-global">Показать больше новостей</button>
+                </div>
+                <div class="col-xl-4">
+                  <div class="news_sidebar">
+                    <div class="news_category_wrap">
+                      <h5 class="news_category__title">Категории новостей</h5>
+                      <ul class="news_category">
+                        <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Lorem ipsum dolor sit ame</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Sed ut perspiciatis unde</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">Ut enim ad minima veniam, quis</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                        <li class="news_category__item"><a class="news_category__link" href="#">At vero eos et accusamus</a>
+                          <svg class="icon icon-right news_category__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>
+                        </li>
+                      </ul>
+                      <div class="global_link_wrappper"><a class="global_link" href="#">Все новости</a>
+                      </div>
+                    </div>
+                    <div class="top_news_wrap">
+                      <p class="global_titles">популярные новости
+                        <svg class="icon icon-right global_titles__svg">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                        </svg>
+                      </p>
+                    </div>
+                    <ul class="news_list top_news">
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news1"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news2"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news3"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news4"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news5"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news6"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="news_list__item">
+                        <div class="news_list__bg"><a class="news_list__bgLink" href="#"><img class="news_list__img" src="static/img/content/news3.jpg" alt="news7"/></a></div>
+                        <div class="news_list__info"><a class="base_red global_category" href="#">мобильные игры</a><a class="news_unit__title" href="#">У Черкасах айтішники зібрали 100 000 гривень для допомоги незрячим людям для допомоги...</a>
+                          <div class="global_date date_article date_news">
+                            <p class="global_date__now">8 сентября, 17:31</p>
+                            <div class="global_date__icon">
+                              <svg class="icon icon-eye global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#eye"></use>
+                              </svg><span class="global_date__count">78</span>
+                            </div>
+                            <p class="global_date__this">
+                              <svg class="icon icon-chat global_date__svg">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#chat"></use>
+                              </svg>22
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="container footer">
+            <div class="row">
+              <div class="col-xl-3 col-lg-5 col-md-12">
+                <div class="footer_logo">
+                  <div class="footer_logo__this">
+                    <svg class="icon icon-logo footer_logo__svg">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#logo"></use>
+                    </svg>
+                    <p class="footer_copyright">© 2017. Все права защищены</p>
+                  </div>
+                  <div class="footer_logo__menu">
+                    <ul class="footer_menu">
+                      <li class="footer_menu__item"><a class="footer_menu__link" href="#">
+                          <svg class="icon icon-right footer_menu__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>Реклама</a></li>
+                      <li class="footer_menu__item"><a class="footer_menu__link" href="#">
+                          <svg class="icon icon-right footer_menu__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>О нас</a></li>
+                      <li class="footer_menu__item"><a class="footer_menu__link" href="#">
+                          <svg class="icon icon-right footer_menu__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#right"></use>
+                          </svg>Контакты</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-7 col-md-12">
+                <div class="footer_contacts">
+                  <div class="footer_contacts__this">
+                    <ul class="footer_address">
+                      <li class="footer_address__item"><a class="footer_address__link" href="#">
+                          <svg class="icon icon-map footer_address__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#map"></use>
+                          </svg>г. Киев, ул. Тестовая 68</a></li>
+                      <li class="footer_address__item"><a class="footer_address__link" href="#">
+                          <svg class="icon icon-phone footer_address__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#phone"></use>
+                          </svg>8 (800) 500 35 98</a></li>
+                      <li class="footer_address__item"><a class="footer_address__link" href="#">
+                          <svg class="icon icon-skype footer_address__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#skype"></use>
+                          </svg>Gamehab</a></li>
+                      <li class="footer_address__item"><a class="footer_address__link" href="#">
+                          <svg class="icon icon-mail footer_address__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#mail"></use>
+                          </svg>tectdomain@gmail.com</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer_contacts__social">
+                    <ul class="footer_social">
+                      <li class="footer_social__item"><a class="footer_social__link" href="#">
+                          <svg class="icon icon-google footer_social__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#google"></use>
+                          </svg></a></li>
+                      <li class="footer_social__item"><a class="footer_social__link" href="#">
+                          <svg class="icon icon-instagram footer_social__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#instagram"></use>
+                          </svg></a></li>
+                      <li class="footer_social__item"><a class="footer_social__link" href="#">
+                          <svg class="icon icon-twitter footer_social__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#twitter"></use>
+                          </svg></a></li>
+                      <li class="footer_social__item"><a class="footer_social__link" href="#">
+                          <svg class="icon icon-facebook footer_social__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#facebook"></use>
+                          </svg></a></li>
+                      <li class="footer_social__item"><a class="footer_social__link" href="#">
+                          <svg class="icon icon-youtube footer_social__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#youtube"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-12">
+                <div class="footer_view">
+                  <ul class="footer_users">
+                    <li class="footer_users__item">
+                      <p class="footer_users__title">Page View</p>
+                      <div class="footer_count"><span class="footer_count__this">12,938</span>
+                        <div class="footer_statistic"><span class="footer_statistic__this">5%</span>
+                          <svg class="icon icon-arrow-up footer_statistic__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#arrow-up"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="footer_users__item">
+                      <p class="footer_users__title">Page View</p>
+                      <div class="footer_count"><span class="footer_count__this">1,938,34</span>
+                        <div class="footer_statistic footer_statistic__low"><span class="footer_statistic__this">1.2%</span>
+                          <svg class="icon icon-arrow-up footer_statistic__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#arrow-up"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="footer_users__item">
+                      <p class="footer_users__title">Page View</p>
+                      <div class="footer_count"><span class="footer_count__this">640,93</span>
+                        <div class="footer_statistic"><span class="footer_statistic__this">6,75%</span>
+                          <svg class="icon icon-arrow-up footer_statistic__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#arrow-up"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="menu_wrap">
+      <ul class="menuGlobal">
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index.html">1. Index</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-news.html">2. Index-News</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-news-v2.html">3. Index-News-v2</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-news-this.html">4. Index-News-This</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-articles.html">5. Index-Articles</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-articles-internal.html">6. Index-Articles-In...</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-enter-account.html">7. Index-Enter</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-create-account.html">8. Index-Create</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-change-password.html">9. Index-Password</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-change-password-2.html">10. Index-Password-2</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-change-password-3.html">11. Index-Password-3</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="index-change-password-4.html">12. Index-Password-4</a></li>
+        <li class="menuGlobal__item"><a class="menuGlobal__link" href="404.html">13. 404</a></li>
+      </ul>
+      <div class="menu_click">
+        <button>N</button>
+      </div>
+    </div>
+    <div class="search" off-canvas="search right reveal">
+      <p class="search__title">поиск по сайту</p>
+      <input class="search__this" type="search" name="search">
+    </div>
+    <div class="alt_nav_wrap" off-canvas="nav left reveal">
+      <div class="alt_nav_content">
+        <ul class="alt_nav">
+          <li class="alt_nav__item active_alt">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-house ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#house"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="alt_nav__item">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-newspaper ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#newspaper"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="index-news.html">Новости</a>
+          </li>
+          <li class="alt_nav__item">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-calendar ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#calendar"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="#">События</a>
+          </li>
+          <li class="alt_nav__item">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-play-button ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#play-button"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="#">Видео</a>
+          </li>
+          <li class="alt_nav__item">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-wallet-menu ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#wallet-menu"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="#">Зарплаты</a>
+          </li>
+          <li class="alt_nav__item">
+            <div class="alt_nav__icon">
+              <svg class="icon icon-list ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#list"></use>
+              </svg>
+            </div><a class="alt_nav__link" href="#">Статьи</a>
+          </li>
+        </ul>
+        <div class="alt_nav__logo">
+          <svg class="icon icon-logo ">
+            <use xlink:href="static/img/svg/symbol/sprite.svg#logo"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="button_close_wrap">
+      <div class="button_close">
+        <button class="button_close__this">
+          <svg class="icon icon-cancel button_close__svg">
+            <use xlink:href="static/img/svg/symbol/sprite.svg#cancel"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
